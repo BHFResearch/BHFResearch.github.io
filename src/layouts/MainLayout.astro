@@ -1,0 +1,114 @@
+---
+const { title, description } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <h1 class="logo"><a href="/">BetterHealthFacts.com</a></h1>
+
+      <nav>
+        <a href="/">Home</a>
+        <a href="/blog">Blog</a>
+        <a href="/about">About</a>
+        <a href="/disclaimer">Disclaimer</a>
+        <a href="/search">Search</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <slot />
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 BetterHealthFacts.com</p>
+      <p>
+        <a href="/about">About</a> |
+        <a href="/disclaimer">Disclaimer</a>
+      </p>
+    </div>
+  </footer>
+
+  <style is:global>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      background: #f9fafb;
+      color: #111;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 15px;
+    }
+
+    header {
+      background: #0f172a;
+      color: white;
+    }
+
+    .logo a {
+      color: white;
+      text-decoration: none;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      background: white;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 6px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px 0;
+      font-size: 0.9rem;
+      text-align: center;
+      color: #555;
+    }
+
+    footer a {
+      color: #0f172a;
+      text-decoration: none;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      nav a {
+        display: inline-block;
+        margin-bottom: 8px;
+      }
+    }
+  </style>
+
+</body>
+</html>

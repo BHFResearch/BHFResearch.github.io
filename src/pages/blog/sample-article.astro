@@ -1,0 +1,30 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+
+const url = "https://research.betterhealthfacts.com/blog/sample-article";
+---
+
+<MainLayout
+  title="Sample Article"
+  description="Example article."
+>
+
+  <article>
+    <h1>Sample Article</h1>
+
+    <p>This is an example research article.</p>
+
+    <hr />
+
+    <p>Share:</p>
+
+    <a href={`https://twitter.com/intent/tweet?url=${url}`} target="_blank">
+      Twitter
+    </a> |
+    <a href={`https://www.facebook.com/sharer/sharer.php?u=${url}`} target="_blank">
+      Facebook
+    </a>
+
+  </article>
+
+</MainLayout>

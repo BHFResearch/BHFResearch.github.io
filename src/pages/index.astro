@@ -1,13 +1,22 @@
 ---
+import MainLayout from '../layouts/MainLayout.astro';
 ---
 
-<html>
-  <head>
-    <title>BHF Research</title>
-    <meta name="description" content="Medical Research Articles by Better Health Facts" />
-  </head>
-  <body>
-    <h1>BHF Research</h1>
-    <p>Welcome to the research section of BetterHealthFacts.com</p>
-  </body>
-</html>
+<MainLayout
+  title="Research.BetterHealthFacts.com – Evidence Based Health Analysis"
+  description="Scientific and research-backed health articles."
+>
+
+  <h2>Welcome to Research.BetterHealthFacts.com</h2>
+
+  <p>
+    This section publishes evidence-based, research-driven health
+    explanations designed for clarity and accuracy.
+  </p>
+
+  <h3>Latest Articles</h3>
+  <ul>
+    <li><a href="/blog/sample-article">Sample Article</a></li>
+  </ul>
+
+</MainLayout>
