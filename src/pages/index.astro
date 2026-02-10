@@ -1,93 +1,25 @@
 ---
+import { getCollection } from 'astro:content';
 import MainLayout from '../layouts/MainLayout.astro';
+
+const articles = await getCollection('articles');
+
+const sorted = articles
+  .sort((a, b) => b.data.pubDate - a.data.pubDate)
+  .slice(0, 10);
 ---
 
 <MainLayout title="Better Health Research">
 
-<section style="margin-bottom:40px;">
-  <h1 style="font-size:2.2rem; margin-bottom:10px;">
-    Evidence-Based Health Research
-  </h1>
-  <p style="font-size:1.1rem; color:#4b5563;">
-    Accurate, research-backed insights on nutrition, fitness, disease prevention and medical science.
-  </p>
+<h1>Latest Research Articles</h1>
 
-  <input 
-    id="searchInput"
-    type="text" 
-    placeholder="Search articles..." 
-    style="
-      margin-top:20px;
-      padding:10px;
-      width:100%;
-      max-width:400px;
-      border-radius:6px;
-      border:1px solid #d1d5db;
-      font-size:14px;
-    "
-  />
-</section>
-
-<section>
-  <h2 style="margin-bottom:20px;">Latest Articles</h2>
-
-  <div id="articlesContainer"></div>
-</section>
-
-<script>
-  const articles = [
-    {
-      title: "Understanding Vitamin D Deficiency",
-      description: "Causes, symptoms and evidence-based supplementation strategies."
-    },
-    {
-      title: "Is Intermittent Fasting Safe?",
-      description: "Scientific review of benefits, risks and metabolic impact."
-    },
-    {
-      title: "Benefits of Regular Exercise",
-      description: "How physical activity improves cardiovascular and mental health."
-    },
-    {
-      title: "Managing High Blood Pressure Naturally",
-      description: "Lifestyle modifications supported by clinical research."
-    }
-  ];
-
-  const container = document.getElementById("articlesContainer");
-  const searchInput = document.getElementById("searchInput");
-
-  function renderArticles(list) {
-    container.innerHTML = "";
-    if (list.length === 0) {
-      container.innerHTML = "<p>No articles found.</p>";
-      return;
-    }
-
-    list.forEach(article => {
-      const card = document.createElement("div");
-      card.className = "card";
-      card.innerHTML = `
-        <h3>${article.title}</h3>
-        <p style="color:#6b7280;">${article.description}</p>
-      `;
-      container.appendChild(card);
-    });
-  }
-
-  // Initial load
-  renderArticles(articles);
-
-  searchInput.addEventListener("input", function () {
-    const query = this.value.toLowerCase();
-
-    const filtered = articles.filter(article =>
-      article.title.toLowerCase().includes(query) ||
-      article.description.toLowerCase().includes(query)
-    );
-
-    renderArticles(filtered);
-  });
-</script>
+{sorted.map(article => (
+  <div class="card">
+    <a href={`/articles/${article.slug}/`}>
+      <h3>{article.data.title}</h3>
+      <p style="color:#6b7280;">{article.data.description}</p>
+    </a>
+  </div>
+))}
 
 </MainLayout>
