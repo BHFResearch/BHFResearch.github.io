@@ -1,5 +1,5 @@
 ---
-const { title, description } = Astro.props;
+const { title = "Better Health Facts" } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -8,107 +8,91 @@ const { title, description } = Astro.props;
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title}</title>
-  <meta name="description" content={description} />
-</head>
-
-<body>
-
-  <header>
-    <div class="container">
-      <h1 class="logo"><a href="/">BetterHealthFacts.com</a></h1>
-
-      <nav>
-        <a href="/">Home</a>
-        <a href="/blog">Blog</a>
-        <a href="/about">About</a>
-        <a href="/disclaimer">Disclaimer</a>
-        <a href="/search">Search</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <slot />
-  </main>
-
-  <footer>
-    <div class="container">
-      <p>© 2026 BetterHealthFacts.com</p>
-      <p>
-        <a href="/about">About</a> |
-        <a href="/disclaimer">Disclaimer</a>
-      </p>
-    </div>
-  </footer>
-
-  <style is:global>
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-      line-height: 1.6;
-      background: #f9fafb;
-      color: #111;
+  <meta name="description" content="Scientific health research and evidence-based medical articles." />
+  <style>
+    :root {
+      --primary: #0f766e;
+      --bg: #ffffff;
+      --text: #1f2937;
     }
 
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 15px;
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--primary);
     }
 
     header {
-      background: #0f172a;
+      background: var(--primary);
       color: white;
-    }
-
-    .logo a {
-      color: white;
-      text-decoration: none;
-    }
-
-    nav {
-      margin-top: 10px;
+      padding: 15px 20px;
     }
 
     nav a {
       color: white;
       margin-right: 15px;
-      text-decoration: none;
-      font-size: 0.95rem;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
+      font-weight: 500;
     }
 
     main {
-      background: white;
+      max-width: 900px;
+      margin: auto;
       padding: 20px;
-      margin-top: 20px;
-      border-radius: 6px;
     }
 
     footer {
-      margin-top: 40px;
-      padding: 20px 0;
-      font-size: 0.9rem;
+      background: #f3f4f6;
+      padding: 20px;
       text-align: center;
-      color: #555;
+      font-size: 14px;
+      margin-top: 40px;
     }
 
-    footer a {
-      color: #0f172a;
-      text-decoration: none;
+    .card {
+      border: 1px solid #e5e7eb;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      transition: 0.2s ease;
     }
 
-    /* Responsive */
+    .card:hover {
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    }
+
     @media (max-width: 600px) {
-      nav a {
-        display: inline-block;
-        margin-bottom: 8px;
+      main {
+        padding: 15px;
       }
     }
   </style>
+</head>
+
+<body>
+
+<header>
+  <strong>Better Health Research</strong>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/articles/">Articles</a>
+    <a href="/about/">About</a>
+    <a href="/disclaimer/">Disclaimer</a>
+  </nav>
+</header>
+
+<main>
+  <slot />
+</main>
+
+<footer>
+  © {new Date().getFullYear()} BetterHealthFacts Research.
+</footer>
 
 </body>
 </html>
