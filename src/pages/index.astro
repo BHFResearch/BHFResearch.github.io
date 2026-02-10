@@ -13,6 +13,7 @@ import MainLayout from '../layouts/MainLayout.astro';
   </p>
 
   <input 
+    id="searchInput"
     type="text" 
     placeholder="Search articles..." 
     style="
@@ -27,24 +28,66 @@ import MainLayout from '../layouts/MainLayout.astro';
   />
 </section>
 
-
 <section>
   <h2 style="margin-bottom:20px;">Latest Articles</h2>
 
-  <div class="card">
-    <h3>Understanding Vitamin D Deficiency</h3>
-    <p style="color:#6b7280;">
-      Causes, symptoms and evidence-based supplementation strategies.
-    </p>
-  </div>
-
-  <div class="card">
-    <h3>Is Intermittent Fasting Safe?</h3>
-    <p style="color:#6b7280;">
-      Scientific review of benefits, risks and metabolic impact.
-    </p>
-  </div>
-
+  <div id="articlesContainer"></div>
 </section>
+
+<script>
+  const articles = [
+    {
+      title: "Understanding Vitamin D Deficiency",
+      description: "Causes, symptoms and evidence-based supplementation strategies."
+    },
+    {
+      title: "Is Intermittent Fasting Safe?",
+      description: "Scientific review of benefits, risks and metabolic impact."
+    },
+    {
+      title: "Benefits of Regular Exercise",
+      description: "How physical activity improves cardiovascular and mental health."
+    },
+    {
+      title: "Managing High Blood Pressure Naturally",
+      description: "Lifestyle modifications supported by clinical research."
+    }
+  ];
+
+  const container = document.getElementById("articlesContainer");
+  const searchInput = document.getElementById("searchInput");
+
+  function renderArticles(list) {
+    container.innerHTML = "";
+    if (list.length === 0) {
+      container.innerHTML = "<p>No articles found.</p>";
+      return;
+    }
+
+    list.forEach(article => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <h3>${article.title}</h3>
+        <p style="color:#6b7280;">${article.description}</p>
+      `;
+      container.appendChild(card);
+    });
+  }
+
+  // Initial load
+  renderArticles(articles);
+
+  searchInput.addEventListener("input", function () {
+    const query = this.value.toLowerCase();
+
+    const filtered = articles.filter(article =>
+      article.title.toLowerCase().includes(query) ||
+      article.description.toLowerCase().includes(query)
+    );
+
+    renderArticles(filtered);
+  });
+</script>
 
 </MainLayout>
