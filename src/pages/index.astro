@@ -3,11 +3,48 @@ import MainLayout from '../layouts/MainLayout.astro';
 ---
 
 <MainLayout title="Better Health Research">
-  <h1>Evidence-Based Health Articles</h1>
-  <p>Scientific insights on nutrition, fitness, mental health and preventive medicine.</p>
+
+<section style="margin-bottom:40px;">
+  <h1 style="font-size:2.2rem; margin-bottom:10px;">
+    Evidence-Based Health Research
+  </h1>
+  <p style="font-size:1.1rem; color:#4b5563;">
+    Accurate, research-backed insights on nutrition, fitness, disease prevention and medical science.
+  </p>
+
+  <input 
+    type="text" 
+    placeholder="Search articles..." 
+    style="
+      margin-top:20px;
+      padding:10px;
+      width:100%;
+      max-width:400px;
+      border-radius:6px;
+      border:1px solid #d1d5db;
+      font-size:14px;
+    "
+  />
+</section>
+
+
+<section>
+  <h2 style="margin-bottom:20px;">Latest Articles</h2>
 
   <div class="card">
-    <h3>Sample Research Article</h3>
-    <p>This is a sample preview. Real articles will appear here soon.</p>
+    <h3>Understanding Vitamin D Deficiency</h3>
+    <p style="color:#6b7280;">
+      Causes, symptoms and evidence-based supplementation strategies.
+    </p>
   </div>
+
+  <div class="card">
+    <h3>Is Intermittent Fasting Safe?</h3>
+    <p style="color:#6b7280;">
+      Scientific review of benefits, risks and metabolic impact.
+    </p>
+  </div>
+
+</section>
+
 </MainLayout>
