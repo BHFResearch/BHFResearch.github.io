@@ -14,10 +14,14 @@ const { article } = Astro.props;
 
 const allArticles = await getCollection('articles');
 
-const related = allArticles.filter(a =>
-  a.data.category === article.data.category &&
-  a.slug !== article.slug
-).slice(0, 3);
+const related = allArticles
+  .filter(a =>
+    a.data?.category &&
+    article.data?.category &&
+    a.data.category === article.data.category &&
+    a.slug !== article.slug
+  )
+  .slice(0, 3);
 ---
 
 <MainLayout title={article.data.title}>
