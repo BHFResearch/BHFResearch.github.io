@@ -12,6 +12,9 @@ export async function getStaticPaths() {
 
 const { article } = Astro.props;
 
+// 🔥 THIS LINE WAS MISSING
+const { Content } = await article.render();
+
 const allArticles = await getCollection('articles');
 
 const related = allArticles
@@ -30,7 +33,7 @@ const related = allArticles
 <p style="color:#6b7280;">{article.data.description}</p>
 
 <article>
-  <article.Content />
+  <Content />
 </article>
 
 <hr style="margin:40px 0;" />
