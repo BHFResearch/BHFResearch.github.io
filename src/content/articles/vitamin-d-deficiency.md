@@ -1,21 +1,13 @@
 ---
-title: "Understanding Vitamin D Deficiency"
-description: "Causes, symptoms and evidence-based supplementation strategies."
-category: "nutrition"
-pubDate: 2025-02-10
-thumbnail: "/images/vitamin-d.jpg"
+title: "Vitamin D Benefits for Immunity"
+description: "Learn how Vitamin D strengthens immunity and supports bone health."
+pubDate: 2026-02-10
+category: "Nutrition"
+image: "/images/articles/vitamin-d-benefits.jpg"
 ---
 
-## What is Vitamin D Deficiency?
+<h2>Vitamin D Benefits</h2>
 
-Vitamin D deficiency is common worldwide and can affect bone health, immunity and mood.
+<img src="/images/articles/vitamin-d-benefits.jpg" alt="Vitamin D" />
 
-### Symptoms
-
-- Fatigue
-- Bone pain
-- Muscle weakness
-
-### Evidence-Based Treatment
-
-Supplementation under medical supervision.
+<p>Vitamin D plays an important role in immune health...</p>

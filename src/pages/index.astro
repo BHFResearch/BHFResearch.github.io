@@ -2,23 +2,36 @@
 import { getCollection } from 'astro:content';
 import MainLayout from '../layouts/MainLayout.astro';
 
-const articles = await getCollection('articles');
-
-const sorted = articles
+const articles = (await getCollection('articles'))
   .sort((a, b) => b.data.pubDate - a.data.pubDate)
   .slice(0, 10);
 ---
 
 <MainLayout title="Better Health Research">
 
-<h1>Latest Research Articles</h1>
+<h1>Latest Health Articles</h1>
 
-{sorted.map(article => (
-  <div class="card">
-    <a href={`/articles/${article.slug}/`}>
-      <h3>{article.data.title}</h3>
-      <p style="color:#6b7280;">{article.data.description}</p>
-    </a>
+{articles.map(article => (
+  <div class="card" style="margin-bottom:30px;">
+    
+    {article.data.image && (
+      <img 
+        src={article.data.image} 
+        alt={article.data.title} 
+        style="width:100%;max-height:300px;object-fit:cover;border-radius:10px;margin-bottom:10px;"
+      />
+    )}
+
+    <h2>
+      <a href={`/articles/${article.slug}/`}>
+        {article.data.title}
+      </a>
+    </h2>
+
+    <p style="color:#6b7280;">
+      {article.data.description}
+    </p>
+
   </div>
 ))}
 
