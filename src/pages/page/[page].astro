@@ -2,18 +2,9 @@
 import { getCollection } from 'astro:content';
 import MainLayout from '../../layouts/MainLayout.astro';
 
-const PAGE_SIZE = 10;
-
-// Fetch all articles
-const allArticles = await getCollection('articles');
-
-// Sort by newest first
-const sorted = allArticles.sort(
-  (a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)
-);
-
-// Generate static paths
 export async function getStaticPaths() {
+  const PAGE_SIZE = 10;
+
   const articles = await getCollection('articles');
 
   const totalPages = Math.ceil(articles.length / PAGE_SIZE);
@@ -23,16 +14,21 @@ export async function getStaticPaths() {
   }));
 }
 
+const PAGE_SIZE = 10;
+
+const allArticles = await getCollection('articles');
+
+const sorted = allArticles.sort(
+  (a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)
+);
+
 const currentPage = Number(Astro.params.page);
+
 const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
 
-if (currentPage < 1 || currentPage > totalPages) {
-  throw new Error('Page not found');
-}
-
-// Slice articles for this page
 const start = (currentPage - 1) * PAGE_SIZE;
 const end = start + PAGE_SIZE;
+
 const pageArticles = sorted.slice(start, end);
 ---
 
