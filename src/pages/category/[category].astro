@@ -1,7 +1,10 @@
+---
 import { getCollection } from 'astro:content';
+import MainLayout from '../../layouts/MainLayout.astro';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
+
   const categories = [...new Set(
     articles.map(a => a.data.category)
   )];
@@ -12,8 +15,40 @@ export async function getStaticPaths() {
 }
 
 const { category } = Astro.params;
-const articles = await getCollection('articles');
 
-const filtered = articles.filter(
+const allArticles = await getCollection('articles');
+
+const filtered = allArticles.filter(
   a => a.data.category === category
 );
+---
+
+<MainLayout title={`Category: ${category}`}>
+
+  <h1>Category: {category}</h1>
+
+  {filtered.length === 0 && (
+    <p>No articles found.</p>
+  )}
+
+  <div class="grid">
+    {filtered.map(article => (
+      <div class="card">
+        <h2>
+          <a href={`/articles/${article.slug}/`}>
+            {article.data.title}
+          </a>
+        </h2>
+        <p>{article.data.description}</p>
+      </div>
+    ))}
+  </div>
+
+</MainLayout>
+
+<style>
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+</style>
