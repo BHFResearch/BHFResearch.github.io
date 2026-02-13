@@ -6,21 +6,30 @@ const { title = "Better Health Facts" } = Astro.props;
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{title}</title>
-  <meta name="description" content="Scientific health research and evidence-based medical articles." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content={Astro.props.description || "Better Health Research Articles"} />
+
+  <link rel="canonical" href={Astro.url} />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content={Astro.props.title} />
+  <meta property="og:description" content={Astro.props.description} />
+  <meta property="og:url" content={Astro.url} />
   <style>
     :root {
-      --primary: #0f766e;
       --bg: #ffffff;
-      --text: #1f2937;
+	  --text: #111827;
+	  --muted: #6b7280;
+	  --primary: #0f766e;
+	  --border: #e5e7eb;
+	  --radius: 12px;
     }
 
     body {
-      margin: 0;
-      font-family: system-ui, -apple-system, sans-serif;
-      background: var(--bg);
-      color: var(--text);
+	  font-family: system-ui, -apple-system, sans-serif;
+	  background: var(--bg);
+	  color: var(--text);
+	  margin: 0;
     }
 
     a {
