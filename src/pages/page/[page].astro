@@ -1,1 +1,79 @@
-npm install @astrojs/rss
+---
+import { getCollection } from 'astro:content';
+import MainLayout from '../../layouts/MainLayout.astro';
+
+const PAGE_SIZE = 10;
+
+// Fetch all articles
+const allArticles = await getCollection('articles');
+
+// Sort by newest first
+const sorted = allArticles.sort(
+  (a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)
+);
+
+// Generate static paths
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+
+  const totalPages = Math.ceil(articles.length / PAGE_SIZE);
+
+  return Array.from({ length: totalPages }, (_, i) => ({
+    params: { page: String(i + 1) },
+  }));
+}
+
+const currentPage = Number(Astro.params.page);
+const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
+
+if (currentPage < 1 || currentPage > totalPages) {
+  throw new Error('Page not found');
+}
+
+// Slice articles for this page
+const start = (currentPage - 1) * PAGE_SIZE;
+const end = start + PAGE_SIZE;
+const pageArticles = sorted.slice(start, end);
+---
+
+<MainLayout title={`Page ${currentPage} | Better Health Research`}>
+
+  <h1>Articles – Page {currentPage}</h1>
+
+  <div class="grid">
+    {pageArticles.map(article => (
+      <div class="card">
+        <h2>
+          <a href={`/articles/${article.slug}/`}>
+            {article.data.title}
+          </a>
+        </h2>
+        <p>{article.data.description}</p>
+      </div>
+    ))}
+  </div>
+
+  <div class="pagination">
+    {currentPage > 1 && (
+      <a href={`/page/${currentPage - 1}/`}>← Previous</a>
+    )}
+
+    {currentPage < totalPages && (
+      <a href={`/page/${currentPage + 1}/`}>Next →</a>
+    )}
+  </div>
+
+</MainLayout>
+
+<style>
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.pagination {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+</style>
