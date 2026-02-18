@@ -8,7 +8,7 @@ image: "/images/articles/Levocetirizine-vs-Cetirizine.jpg"
 <p>Allergic rhinitis, seasonal allergies, and chronic hives affect millions of people worldwide. Sneezing, itchy eyes, nasal congestion, and skin rashes can significantly disrupt daily life. Among the most commonly prescribed antihistamines are levocetirizine and cetirizine. Both are classified as second-generation antihistamines and are widely used for relief from allergy symptoms. However, one important question frequently asked by patients is: <strong>Which causes more drowsiness — levocetirizine or cetirizine?</strong></p>
 
 <p>At betterhealthfacts.com, we focus on medically accurate and research-backed health information. This in-depth guide compares levocetirizine and cetirizine in terms of mechanism of action, classification, effectiveness, side effects, sedative potential, and practical considerations such as dosage and safety in special populations.</p>
-<img src="/images/articles/Levocetirizine-vs-Cetirizine.jpg" width=300px />
+<center><img src="/images/articles/Levocetirizine-vs-Cetirizine.jpg" alt="Levocetirizine vs Cetirizine" width=300px /></center>
 <h2>Understanding Allergies and the Role of Histamine</h2>
 
 <p>When a person with allergies encounters a trigger such as pollen, dust mites, or pet dander, their immune system overreacts. Specialized immune cells release histamine, a chemical mediator that binds to histamine H1 receptors in various tissues.</p>
