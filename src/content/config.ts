@@ -6,11 +6,14 @@ const articles = defineCollection({
     description: z.string(),
     pubDate: z.date(),
     category: z.string(),
-    image: z.string().optional()
+    image: z.string().optional(),
+
+    // NEW OPTIONAL FIELDS
+    featured: z.boolean().optional(),
+    tags: z.array(z.string()).optional(),
   }),
 });
 
 export const collections = {
   articles,
 };
-

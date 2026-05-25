@@ -17,20 +17,32 @@ const { title = "Better Health Facts" } = Astro.props;
   <meta property="og:url" content={Astro.url} />
   <style>
     :root {
-      --bg: #ffffff;
-	  --text: #111827;
-	  --muted: #6b7280;
-	  --primary: #0f766e;
-	  --border: #e5e7eb;
-	  --radius: 12px;
-    }
+	  --bg: #020617;
+	  --surface: #0f172a;
+	  --surface-2: #111827;
+	  --text: #f8fafc;
+	  --muted: #94a3b8;
+	  --primary: #38bdf8;
+	  --border: rgba(255,255,255,0.08);
+	  --radius: 22px;
+	}
 
     body {
-	  font-family: system-ui, -apple-system, sans-serif;
-	  background: var(--bg);
+	  font-family:
+		Inter,
+		system-ui,
+		sans-serif;
+
+	  background:
+		radial-gradient(
+		  circle at top,
+		  #0f172a,
+		  #020617 60%
+		);
+
 	  color: var(--text);
 	  margin: 0;
-    }
+	}
 
     a {
       text-decoration: none;
@@ -62,10 +74,10 @@ const { title = "Better Health Facts" } = Astro.props;
 
 
     main {
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-    }
+	  max-width: 1400px;
+	  margin: auto;
+	  padding: 30px;
+	}
 
     footer {
       background: #f3f4f6;
