@@ -4,7 +4,7 @@ category: "Rare and Deadly"
 pubDate: 2026-04-26
 description: "Could Ebola ever become a COVID-style global pandemic? Explore Ebola’s transmission, mutation potential, historical outbreaks, extinction-level disease risks, and what science says about humanity’s future pandemic threats."
 featured: true
-image: "/images/articles/ebola_pandemic.jpg"
+image: "/images/articles/ebola_pandemic.png"
 ---
 <p>In 2020, the world watched a microscopic virus bring humanity to a standstill. Airports emptied. Cities locked down. Hospitals overflowed. Economies shook. Millions died. COVID-19 permanently changed how humans think about infectious disease.</p>
 
