@@ -118,6 +118,19 @@ const { title = "Better Health Facts" } = Astro.props;
 
 	.search-wrap {
 	  margin-top: 14px;
+
+	  display: flex;
+	  justify-content: center;
+	}
+
+	#search {
+	  width: 100%;
+	  max-width: 500px;
+	}
+	
+	.pagefind-ui {
+	  width: 100%;
+	  max-width: 500px;
 	}
 
     .card {
@@ -138,10 +151,6 @@ const { title = "Better Health Facts" } = Astro.props;
 	  transform: translateY(-3px);
 	}
 	
-	#search {
-	  max-width: 500px;
-	}
-
     @media (max-width: 600px) {
       main {
         padding: 15px;
