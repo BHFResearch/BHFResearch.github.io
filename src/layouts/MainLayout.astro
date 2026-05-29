@@ -102,6 +102,23 @@ const { title = "Better Health Facts" } = Astro.props;
       font-size: 14px;
       margin-top: 40px;
     }
+	
+	.topbar {
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  gap: 20px;
+	  flex-wrap: wrap;
+	}
+
+	.logo {
+	  font-size: 1.2rem;
+	  font-weight: 700;
+	}
+
+	.search-wrap {
+	  margin-top: 14px;
+	}
 
     .card {
 	  border: 1px solid #e5e7eb;
@@ -120,6 +137,10 @@ const { title = "Better Health Facts" } = Astro.props;
 	  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
 	  transform: translateY(-3px);
 	}
+	
+	#search {
+	  max-width: 500px;
+	}
 
     @media (max-width: 600px) {
       main {
@@ -132,14 +153,26 @@ const { title = "Better Health Facts" } = Astro.props;
 <body>
 
 <header>
-  <strong>Better Health Research</strong>
-  <nav>
-    <a href="/">Home</a>
-    <a href="/articles/">Articles</a>
-    <a href="/about/">About</a>
-    <a href="/disclaimer/">Disclaimer</a>
-	<Search />
-  </nav>
+
+  <div class="topbar">
+
+    <strong class="logo">
+      Better Health Research
+    </strong>
+
+    <nav>
+      <a href="/">Home</a>
+      <a href="/articles/">Articles</a>
+      <a href="/about/">About</a>
+      <a href="/disclaimer/">Disclaimer</a>
+    </nav>
+
+  </div>
+
+  <div class="search-wrap">
+    <Search />
+  </div>
+
 </header>
 
 <main>
