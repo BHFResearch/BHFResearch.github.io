@@ -10,7 +10,22 @@ image: "/images/articles/Sudden_Dizziness.jpg"
 <p>You’re standing in a crowded line at a concert, waiting at a school assembly, praying during a ceremony, or cooking in the kitchen for a long time. Suddenly, your legs feel weak. Your vision becomes blurry. You start sweating, your ears ring, and it feels like the room is gently spinning around you. You wonder: <strong>“Why do I feel dizzy when I stand still for too long?”</strong></p>
 
 <p>This strange sensation is surprisingly common. Many people experience dizziness, lightheadedness, or even fainting after standing still for extended periods. In most cases, it’s harmless and temporary. But sometimes, it can signal an underlying health issue your body wants you to notice.</p>
-<center><img src="/images/articles/Sudden_Dizziness.jpg" alt="Feeling Dizzy When Stand Still for Too Long" width=300px /></center>
+<figure style="margin:35px auto; text-align:center;">
+  <img
+    src="/images/articles/Sudden_Dizziness.jpg"
+    alt="Feeling Dizzy When Standing Still for Too Long"
+    loading="lazy"
+    style="
+      width:100%;
+      max-width:800px;
+      height:auto;
+      border-radius:16px;
+      box-shadow:0 8px 24px rgba(0,0,0,0.15);
+      display:block;
+      margin:auto;
+    "
+  />
+</figure>
 <p>The good news is that understanding why this happens can help you prevent it, manage it naturally, and recognize when it might need medical attention.</p>
 
 <p>In this article, we’ll explore:</p>
