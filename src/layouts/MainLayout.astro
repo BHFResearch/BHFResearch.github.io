@@ -267,6 +267,101 @@ const { title = "Better Health Facts" } = Astro.props;
       }
 
     }
+	
+	/* Search Icon */
+
+	.search-toggle {
+	  background: transparent;
+	  border: none;
+
+	  color: white;
+
+	  font-size: 1.4rem;
+
+	  cursor: pointer;
+
+	  padding: 4px 8px;
+	}
+
+	/* Overlay */
+
+	.search-overlay {
+	  position: fixed;
+
+	  inset: 0;
+
+	  background: rgba(2, 6, 23, 0.96);
+
+	  display: none;
+
+	  justify-content: center;
+	  align-items: flex-start;
+
+	  padding-top: 80px;
+
+	  z-index: 9999;
+	}
+
+	.search-overlay.open {
+	  display: flex;
+	}
+
+	/* Content */
+
+	.search-overlay-content {
+	  width: min(900px, 92vw);
+	}
+
+	/* Close Button */
+
+	.search-close {
+	  background: transparent;
+	  border: none;
+
+	  color: white;
+
+	  font-size: 2rem;
+
+	  cursor: pointer;
+
+	  float: right;
+
+	  margin-bottom: 20px;
+	}
+
+	.search-overlay h2 {
+	  color: white;
+
+	  margin-bottom: 20px;
+
+	  font-size: 2rem;
+	}
+
+	/* Bigger Search */
+
+	.search-overlay .pagefind-ui {
+	  max-width: none;
+	  width: 100%;
+	}
+
+	.search-overlay .pagefind-ui__search-input {
+	  font-size: 1.2rem;
+	  padding: 16px;
+	}
+
+	/* Mobile */
+
+	@media (max-width: 768px) {
+
+	  .search-overlay {
+		padding-top: 60px;
+	  }
+
+	  .search-overlay-content {
+		width: 95vw;
+	  }
+
+	}
 
   </style>
 
@@ -292,11 +387,32 @@ const { title = "Better Health Facts" } = Astro.props;
       <a href="/disclaimer/">Disclaimer</a>
     </nav>
 	
-	<Search />
+	<button id="search-toggle" class="search-toggle" aria-label="Search">
+	  🔍
+	</button>
 
   </div>
 
 </header>
+
+<div id="search-overlay" class="search-overlay">
+
+  <div class="search-overlay-content">
+
+    <button
+      id="search-close"
+      class="search-close"
+      aria-label="Close Search">
+      ✕
+    </button>
+
+    <h2>Search Articles</h2>
+
+    <Search />
+
+  </div>
+
+</div>
 
 <main>
   <slot />
@@ -305,6 +421,46 @@ const { title = "Better Health Facts" } = Astro.props;
 <footer>
   © {new Date().getFullYear()} BetterHealthFacts Research.
 </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  const overlay = document.getElementById('search-overlay');
+
+  const openBtn = document.getElementById('search-toggle');
+
+  const closeBtn = document.getElementById('search-close');
+
+  openBtn.addEventListener('click', () => {
+
+    overlay.classList.add('open');
+
+    document.body.style.overflow = 'hidden';
+
+  });
+
+  closeBtn.addEventListener('click', () => {
+
+    overlay.classList.remove('open');
+
+    document.body.style.overflow = '';
+
+  });
+
+  document.addEventListener('keydown', (e) => {
+
+    if (e.key === 'Escape') {
+
+      overlay.classList.remove('open');
+
+      document.body.style.overflow = '';
+
+    }
+
+  });
+
+});
+</script>
 
 </body>
 </html>
