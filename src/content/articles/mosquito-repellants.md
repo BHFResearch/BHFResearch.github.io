@@ -9,7 +9,24 @@ image: "/images/articles/mosquitorepellant.jpg"
 <p>Mosquitoes are more than just a nuisance—they are vectors of serious diseases such as dengue, malaria, chikungunya, and Zika virus. To protect ourselves, we rely heavily on mosquito repellents in various forms: creams, sprays, coils, and liquid vaporizers. But a pressing question remains: <strong>are these mosquito repellents truly safe for humans?</strong></p>
 
 <p>Many people assume these products only target mosquitoes, but the reality is more complex. The same chemicals that repel or kill mosquitoes can also interact with the human body. While most products are approved for public use, concerns about long-term exposure, toxicity, and safety for vulnerable populations continue to grow.</p>
-<center><img src="/images/articles/mosquitorepellant.jpg" alt="Are mosquito repellents safe?" width=300px /></center>
+
+<figure style="margin:35px auto; text-align:center;">
+  <img
+    src="/images/articles/mosquitorepellant.jpg"
+    alt="Are mosquito repellents safe?"
+    loading="lazy"
+    style="
+      width:100%;
+      max-width:800px;
+      height:auto;
+      border-radius:16px;
+      box-shadow:0 8px 24px rgba(0,0,0,0.15);
+      display:block;
+      margin:auto;
+    "
+  />
+</figure>
+
 <p>This article takes a deep, evidence-based look at how mosquito repellents work, what chemicals they contain, their safety profiles, and how regulatory bodies ensure their approval. We will compare creams, sprays, coils, and liquid repellents to help you make informed and safe choices.</p>
 
 <h2>How Mosquito Repellents Work</h2>

@@ -13,6 +13,23 @@ image: "/images/articles/sadness.png"
 
 <p>If you’ve experienced this, you’re not alone. Sudden emotional dips are surprisingly common, and in most cases, they are not a sign that something is “wrong” with you. Instead, they are often the result of subtle shifts in your brain, body, and environment that go unnoticed—until they affect your mood.</p>
 
+<figure style="margin:35px auto; text-align:center;">
+  <img
+    src="/images/articles/sadness.png"
+    alt="Sudden Wave of Sadness for No Reason"
+    loading="lazy"
+    style="
+      width:100%;
+      max-width:800px;
+      height:auto;
+      border-radius:16px;
+      box-shadow:0 8px 24px rgba(0,0,0,0.15);
+      display:block;
+      margin:auto;
+    "
+  />
+</figure>
+
 <p>This article explores what these sudden waves of sadness feel like, why they happen, what might be triggering them, and how you can better understand and manage them.</p>
 
 <hr>
