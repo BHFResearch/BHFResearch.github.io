@@ -13,7 +13,23 @@ image: "/images/articles/ebola_pandemic.png"
 <p>That title often belongs to Ebola.</p>
 
 <p>The mere mention of Ebola triggers fear unlike almost any other disease. Images of hemorrhagic fever, quarantine suits, overwhelmed villages, and mortality rates reaching 50% or higher have made Ebola one of the most terrifying pathogens known to humanity. Unlike COVID-19, Ebola kills brutally and visibly. Entire families have disappeared during outbreaks. Healthcare systems have collapsed under its pressure.</p>
-<center><img src="/images/articles/ebola_pandemic.png" alt="Could Ebola Become the Next Pandemic" /></center>
+
+<figure style="margin:35px auto; text-align:center;">
+  <img
+    src="/images/articles/ebola_pandemic.png"
+    alt="Could Ebola Become the Next Pandemic"
+    loading="lazy"
+    style="
+      width:100%;
+      max-width:800px;
+      height:auto;
+      border-radius:16px;
+      box-shadow:0 8px 24px rgba(0,0,0,0.15);
+      display:block;
+      margin:auto;
+    "
+  />
+</figure>
 <p>This raises a disturbing question:</p>
 
 <p><strong>Could Ebola ever become the next COVID-style pandemic?</strong></p>
