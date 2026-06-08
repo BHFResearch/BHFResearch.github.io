@@ -1,4 +1,4 @@
-"---
+---
 title: "Why do I hear faint ringing in my ears in complete silence?"
 category: "Causes & Conditions"
 pubDate: 2026-06-08
