@@ -3,7 +3,7 @@ title: "Microplastics in Your Blood and Brain: Should You Be Worried About the L
 category: "Pollution and Health"
 pubDate: 2026-06-13
 description: "Microplastics have been found in human blood and brain tissue. Learn what the latest research means, potential health risks, symptoms, and ways to reduce exposure."
-image: "/images/articles/microplastics-in-blood"
+image: "/images/articles/microplastics-in-blood.jpg"
 ---
 <h1>Microplastics in Your Blood and Brain: Should You Be Worried About the Latest Findings?</h1>
 
@@ -13,7 +13,7 @@ image: "/images/articles/microplastics-in-blood"
 
 <figure style="margin:35px auto; text-align:center;">
   <img
-    src="/images/articles/microplastics-in-blood"
+    src="/images/articles/microplastics-in-blood.jpg"
     alt="Microplastics in Your Blood and Brain: Should You Be Worried About the Latest Findings?"
     loading="lazy"
     style="

@@ -3,7 +3,7 @@ title: "Why Are Colon Cancer Cases Rising in Young Adults? The Alarming Trend Do
 category: "Alarming Health Trends"
 pubDate: 2026-06-13
 description: "Why are colon cancer cases rising in young adults? Learn symptoms, causes, warning signs, treatments, medicines, myths, and when to see a doctor."
-image: "/images/articles/rising-colon-cancer-cases"
+image: "/images/articles/rising-colon-cancer-cases.jpg"
 ---
 <h1>Why Are Colon Cancer Cases Rising in Young Adults? The Alarming Trend Doctors Are Investigating</h1>
 
@@ -13,7 +13,7 @@ image: "/images/articles/rising-colon-cancer-cases"
 
 <figure style="margin:35px auto; text-align:center;">
   <img
-    src="/images/articles/rising-colon-cancer-cases"
+    src="/images/articles/rising-colon-cancer-cases.jpg"
     alt="Why Are Colon Cancer Cases Rising in Young Adults? The Alarming Trend Doctors Are Investigating"
     loading="lazy"
     style="
