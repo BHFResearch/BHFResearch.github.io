@@ -34,42 +34,225 @@ const pageArticles = sorted.slice(start, end);
 
 <MainLayout title={`Page ${currentPage} | Better Health Research`}>
 
-  <h1>Articles – Page {currentPage}</h1>
+  <section class="archive-page">
 
-  <div class="grid">
+  <header class="page-header">
+    <h1>Health Research Articles</h1>
+    <p>Page {currentPage} of {totalPages}</p>
+  </header>
+
+  <section class="articles-grid">
+
     {pageArticles.map(article => (
-      <div class="card">
-        <h2>
-          <a href={`/articles/${article.slug}/`}>
-            {article.data.title}
-          </a>
-        </h2>
-        <p>{article.data.description}</p>
-      </div>
-    ))}
-  </div>
 
-  <div class="pagination">
-    {currentPage > 1 && (
-      <a href={`/page/${currentPage - 1}/`}>← Previous</a>
+      <article class="article-card">
+
+        <a href={`/articles/${article.slug}/`}>
+
+          {article.data.image && (
+            <img
+              src={article.data.image}
+              alt={article.data.title}
+              class="article-image"
+              loading="lazy"
+            />
+          )}
+
+          <div class="article-content">
+
+            <span class="article-category">
+              {article.data.category}
+            </span>
+
+            <h2>{article.data.title}</h2>
+
+            <p>{article.data.description}</p>
+
+          </div>
+
+        </a>
+
+      </article>
+
+    ))}
+
+  </section>
+
+  <nav class="pagination">
+
+    {currentPage > 1 ? (
+      <a
+        href={
+          currentPage === 2
+            ? '/'
+            : `/page/${currentPage - 1}/`
+        }
+      >
+        ← Previous
+      </a>
+    ) : (
+      <span></span>
     )}
+
+    <span class="page-number">
+      Page {currentPage} of {totalPages}
+    </span>
 
     {currentPage < totalPages && (
-      <a href={`/page/${currentPage + 1}/`}>Next →</a>
+      <a href={`/page/${currentPage + 1}/`}>
+        Next →
+      </a>
     )}
-  </div>
+
+  </nav>
+
+</section>
 
 </MainLayout>
 
 <style>
-.grid {
+.archive-page {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.page-header {
+  padding-top: 10px;
+}
+
+.page-header h1 {
+  margin-bottom: 8px;
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.page-header p {
+  color: var(--muted);
+}
+
+.articles-grid {
   display: grid;
-  gap: 1.5rem;
+  grid-template-columns:
+    repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.article-card {
+  border-radius: 22px;
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(17,24,39,0.96),
+      rgba(31,41,55,0.98)
+    );
+
+  border: 1px solid rgba(255,255,255,0.08);
+
+  transition:
+    transform 0.18s ease,
+    border-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+
+  border-color:
+    rgba(125,211,252,0.45);
+
+  box-shadow:
+    0 12px 30px rgba(0,0,0,0.28);
+}
+
+.article-card a {
+  display: block;
+  color: inherit;
+  height: 100%;
+}
+
+.article-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.article-content {
+  padding: 22px;
+}
+
+.article-category {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #7dd3fc;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.article-content h2 {
+  margin: 0 0 12px;
+  line-height: 1.25;
+  font-size: 1.35rem;
+}
+
+.article-content p {
+  color: #cbd5e1;
+  line-height: 1.6;
+  font-size: 0.96rem;
 }
 
 .pagination {
-  margin-top: 2rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.pagination a {
+  padding: 12px 22px;
+  border-radius: 999px;
+
+  background: rgba(255,255,255,0.06);
+
+  color: #f8fafc;
+
+  border:
+    1px solid rgba(255,255,255,0.08);
+
+  transition: 0.2s ease;
+}
+
+.pagination a:hover {
+  background:
+    rgba(125,211,252,0.12);
+
+  border-color:
+    rgba(125,211,252,0.35);
+}
+
+.page-number {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+
+  .articles-grid {
+    gap: 18px;
+  }
+
+  .article-content {
+    padding: 18px;
+  }
+
+  .pagination {
+    flex-direction: column;
+    gap: 14px;
+  }
+
 }
 </style>
