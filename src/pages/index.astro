@@ -13,6 +13,10 @@ const hero = sorted.find(article => article.data.featured);
 const latest = hero
   ? sorted.filter(article => article.slug !== hero.slug)
   : sorted;
+
+const PAGE_SIZE = 12;
+
+const homepageArticles = latest.slice(0, PAGE_SIZE);
 ---
 
 <MainLayout
@@ -62,7 +66,7 @@ const latest = hero
 
   <section class="articles-grid">
 
-    {latest.map(article => (
+    {homepageArticles.map(article => (
       <article class="article-card">
 
         <a href={`/articles/${article.slug}/`}>
@@ -95,9 +99,11 @@ const latest = hero
 
   </section>
 
-  <nav class="pagination">
-    <a href="/page/2/">Older Articles →</a>
-  </nav>
+  {latest.length > PAGE_SIZE && (
+	  <nav class="pagination">
+		<a href="/page/2/">Older Articles →</a>
+	  </nav>
+	)}
 
 </section>
 
