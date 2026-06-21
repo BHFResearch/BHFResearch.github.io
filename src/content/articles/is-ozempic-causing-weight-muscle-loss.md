@@ -5,8 +5,6 @@ pubDate: 2026-06-12
 description: "Could Ozempic cause muscle loss during weight loss? Discover what new research reveals, symptoms to watch for, treatment options, and ways to preserve muscle."
 image: "/images/articles/ozempic-weight-loss.jpg"
 ---
-<h1>Could Weight Loss Drugs Like Ozempic Cause Muscle Loss? What New Research Reveals</h1>
-
 <h2>Introduction: You’re Losing Weight, But Why Do You Feel Weaker?</h2>
 
 <p>You step onto the scale and smile. The number is finally moving in the right direction. Your clothes fit better, your waistline is shrinking, and friends are noticing the difference. But something feels off.</p>

@@ -5,8 +5,6 @@ pubDate: 2026-06-12
 description: "Why does your nose run when eating hot or spicy foods? Learn the science behind gustatory rhinitis, causes, warning signs, and natural ways to manage it."
 image: "/images/articles/running-nose-spicy-food.jpg"
 ---
-<h1>Why Does My Nose Run When I Eat Hot or Spicy Foods?</h1>
-
 <p>Have you ever been enjoying a steaming bowl of spicy curry, a plate of hot noodles, or a fiery taco when suddenly your nose starts dripping like a leaky faucet? You reach for a tissue, wondering whether you're catching a cold, having an allergy attack, or if something is actually wrong with your body.</p>
 
 <p>If this sounds familiar, you're far from alone. Millions of people experience a runny nose while eating hot or spicy foods. It can be annoying, embarrassing, and confusing—especially when it happens every single time you eat certain meals.</p>

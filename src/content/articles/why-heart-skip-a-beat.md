@@ -5,8 +5,6 @@ pubDate: 2026-06-09
 description: "Why does your heart skip a beat when you're calm? Learn common causes, warning signs, body mechanisms, myths, and natural ways to reduce palpitations."
 image: "/images/articles/heart-skip-a-beat.jpg"
 ---
-<h1>Why Does My Heart Skip a Beat When I’m Not Anxious or Exercising?</h1>
-
 <p>Have you ever been sitting quietly on the couch, reading a book, watching television, or even lying in bed when suddenly your heart seems to “skip” a beat?</p>
 
 <p>For a brief moment, it may feel as though your heart stopped, fluttered, flipped, or thumped unusually hard in your chest. The sensation often disappears as quickly as it arrived, but the worry can linger for hours.</p>

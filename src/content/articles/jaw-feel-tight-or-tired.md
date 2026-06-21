@@ -5,8 +5,6 @@ pubDate: 2026-06-11
 description: "Why does your jaw feel tight or tired even without chewing? Discover common causes, hidden triggers, warning signs, and natural ways to find relief."
 image: "/images/articles/tight-tired-jaw.jpg"
 ---
-<h1>Why Does My Jaw Feel Tight or Tired Even When I Haven’t Been Chewing Much?</h1>
-
 <p>Have you ever reached the end of a normal day and suddenly noticed that your jaw feels exhausted, tight, stiff, or strangely sore—even though you haven't been chewing gum, eating tough foods, or talking excessively?</p>
 
 <p>Many people experience this unsettling sensation. It can feel as if the muscles around the jaw have been working overtime despite no obvious reason. Some wake up with a tired jaw. Others notice tightness during stressful workdays. For some, the sensation comes and goes, while for others it becomes a persistent annoyance.</p>

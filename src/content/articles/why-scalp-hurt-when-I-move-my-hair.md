@@ -5,8 +5,6 @@ pubDate: 2026-06-09
 description: "Why does your scalp hurt when you move your hair after a long day? Discover common causes, biological explanations, hidden triggers, and when to worry"
 image: "/images/articles/scalp-hurts.jpg"
 ---
-<h1>Why Does My Scalp Hurt When I Move My Hair After a Long Day?</h1>
-
 <p>Have you ever reached the end of a long day, taken your hair out of a ponytail, brushed it to one side, or simply run your fingers through it—only to feel an unexpected soreness on your scalp?</p>
 
 <p>The sensation can be surprisingly uncomfortable. It may feel as though your hair itself hurts. Some people describe it as tenderness, while others experience a dull ache, burning sensation, tightness, or even pain when moving their hair in a different direction.</p>

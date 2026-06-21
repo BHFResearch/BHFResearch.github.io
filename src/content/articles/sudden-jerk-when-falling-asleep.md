@@ -5,8 +5,6 @@ pubDate: 2026-06-11
 description: "Why does your body suddenly jerk when falling asleep? Discover causes, hidden triggers, warning signs, and natural ways to reduce sleep jerks."
 image: "/images/articles/sudden-body-jerk-while-sleeping.jpg"
 ---
-<h1>Why Does My Body Jerk Suddenly When I’m About to Fall Asleep?</h1>
-
 <p>You're finally drifting off after a long day. Your eyes are heavy, your thoughts are fading, and sleep is just seconds away. Then suddenly—BANG! Your entire body jerks. Maybe your leg kicks, your arm twitches, or you feel as if you're falling off a cliff. Your heart races, and you're instantly awake again.</p>
 
 <p>If this has happened to you, you're far from alone.</p>
