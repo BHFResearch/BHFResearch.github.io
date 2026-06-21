@@ -420,11 +420,6 @@ const { title = "Better Health Facts" } = Astro.props;
 	  />
 	</a>
 
-    <nav>
-      <a href="/about/">About</a>
-      <a href="/disclaimer/">Disclaimer</a>
-    </nav>
-	
 	<button id="search-toggle" class="search-toggle" aria-label="Search">
 	  🔍
 	</button>
@@ -458,6 +453,10 @@ const { title = "Better Health Facts" } = Astro.props;
 
 <footer>
   © {new Date().getFullYear()} BetterHealthFacts Research.
+  <nav>
+      <a href="/about/">About</a>
+      <a href="/disclaimer/">Disclaimer</a>
+    </nav>
 </footer>
 
 <script>
