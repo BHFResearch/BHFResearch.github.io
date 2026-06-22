@@ -113,19 +113,18 @@ const { title = "Better Health Facts" } = Astro.props;
       overflow-x: hidden;
     }
 
-    .header-inner {
-      max-width: 1400px;
+	.header-inner {
+	  max-width: 1400px;
 
-      margin: auto;
+	  margin: auto;
 
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+	  display: flex;
 
-      gap: 2px;
+	  justify-content: center;
+	  align-items: center;
 
-      flex-wrap: wrap;
-    }
+	  gap: 10px;
+	}
 
 	.logo {
 	  display: flex;
@@ -133,7 +132,7 @@ const { title = "Better Health Facts" } = Astro.props;
 	}
 
 	.logo img {
-	  height: 80px;
+	  height: 70px;
 	  width: auto;
 	  display: block;
 	}
@@ -269,46 +268,50 @@ const { title = "Better Health Facts" } = Astro.props;
 
     /* MOBILE */
 
-    @media (max-width: 768px) {
-	
+	@media (max-width: 768px) {
+
 	  .logo img {
-		height: 60px;
+		height: 90px;
 	  }
 
-      .header-inner {
-        flex-direction: column;
+	  .header-inner {
+		justify-content: center;
+		gap: 8px;
+	  }
 
-        align-items: stretch;
-      }
+	  main {
+		padding: 10px 15px;
+	  }
 
-      nav {
-        justify-content: center;
-      }
-
-      #search,
-      .pagefind-ui {
-        max-width: 100%;
-      }
-
-      main {
-        padding: 10px 15px;
-      }
-
-    }
+	}
 	
 	/* Search Icon */
 
 	.search-toggle {
-	  background: transparent;
-	  border: none;
+	  background: rgba(255,255,255,0.08);
+
+	  border: 1px solid rgba(255,255,255,0.12);
+
+	  border-radius: 999px;
 
 	  color: white;
 
-	  font-size: 1.4rem;
+	  font-size: 1.1rem;
 
 	  cursor: pointer;
 
-	  padding: 4px 8px;
+	  width: 42px;
+	  height: 42px;
+
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+
+	  transition: 0.2s ease;
+	}
+
+	.search-toggle:hover {
+	  background: rgba(125,211,252,0.15);
 	}
 
 	/* Overlay */
