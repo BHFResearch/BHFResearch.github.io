@@ -1,7 +1,7 @@
 ---
 title: "Silent Kidney Disease: The Early Warning Signs Most People Miss"
 category: "Alarming Health Trends"
-pubDate: 2026-06-14
+pubDate: 2026-06-30
 description: "Silent kidney disease often develops without obvious symptoms. Learn the early warning signs, hidden triggers, red flags, myths, and natural ways to support kidney health."
 image: "/images/articles/silent-kidney-disease.jpg"
 ---
