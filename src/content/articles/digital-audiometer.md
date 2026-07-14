@@ -5,10 +5,8 @@ pubDate: 2026-07-14
 description: "Digital Audiometer is an educational web tool that simulates a professional hearing test. It lets you measure hearing thresholds across key frequencies for both ears, generate a real-time audiogram, and receive instant analysis — all using just your headphones"
 image: "/images/articles/digital-audiometer.jpg"
 ---
-<style>
-        
-        .container { max-width: 920px; margin: auto; background: white; border-radius: 12px; box-shadow: 0 5px 25px rgba(0,0,0,0.15); overflow: hidden; }
-        .header { background: #1e3a8a; color: white; padding: 20px; text-align: center; }
+ <div style="max-width: 920px; margin: auto; background: white; border-radius: 12px; box-shadow: 0 5px 25px rgba(0,0,0,0.15); overflow: hidden;">
+	<style>      
         .section { padding: 25px; display: none; }
         .active { display: block; }
         button { padding: 12px 24px; margin: 8px 4px; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; }
@@ -20,12 +18,9 @@ image: "/images/articles/digital-audiometer.jpg"
         canvas { border: 2px solid #ddd; border-radius: 8px; background: #fafafa; }
         .disclaimer { background: #fef3c7; padding: 18px; border-radius: 8px; margin: 20px 0; }
     </style>
-
-    <div class="container">
-
         <!-- Welcome -->
         <div id="welcome" class="section active">
-            <div class="header"><h1>🩺 Digital Audiometer</h1></div>
+            <div style="background: #1e3a8a; color: white; padding: 20px; text-align: center;"><h1>🩺 Digital Audiometer</h1></div>
             <h2>Welcome to Better Health Facts Hearing Test</h2>
             <p>This tool simulates professional audiometers (like ALPS) for educational purposes only.</p>
 			<h3>How it works:</h3>
