@@ -6,6 +6,6 @@ description: "Digital Audiometer is an educational web tool that simulates a pro
 image: "/images/articles/digital-audiometer.jpg"
 ---
 
-import HearingTest from '../../components/HearingTest.astro';
+import HearingTest from '~/components/HearingTest.astro';
 
 <HearingTest client:load />
