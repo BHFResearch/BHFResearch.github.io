@@ -1,0 +1,159 @@
+<style>
+  .account-box {
+    max-width: 520px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #1c212b;
+    border: 1px solid #2a2f3a;
+    border-radius: 12px;
+    color: #e8eaed;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  .account-box h2 {
+    margin: 0 0 20px 0;
+    font-size: 1.6rem;
+    color: #ffffff;
+  }
+
+  .info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #2a2f3a;
+    font-size: 0.95rem;
+  }
+
+  .info-row:last-child {
+    border-bottom: none;
+  }
+
+  .info-label {
+    color: #9aa0a6;
+  }
+
+  .info-value {
+    color: #e8eaed;
+    font-weight: 500;
+  }
+
+  .logout-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 22px;
+    background: #e74c3c;
+    color: white !important;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .logout-btn:hover {
+    background: #c0392b;
+  }
+
+  .not-logged {
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .not-logged a {
+    color: #4f8cff;
+    text-decoration: underline;
+  }
+</style>
+
+<div class="account-box" id="accountContainer">
+  <!-- Content will be loaded by JavaScript -->
+</div>
+
+<script>
+(function() {
+  const container = document.getElementById("accountContainer");
+  const saved = localStorage.getItem("bg_user");
+
+  // If not logged in
+  if (!saved) {
+    container.innerHTML = `
+      <div class="not-logged">
+        <h2>You are not logged in</h2>
+        <p>Please <a href="/p/login.html">Login</a> to view your account.</p>
+      </div>
+    `;
+    return;
+  }
+
+  // Parse user data
+  let user;
+  try {
+    user = JSON.parse(saved);
+  } catch (e) {
+    localStorage.removeItem("bg_user");
+    location.href = "/p/login.html";
+    return;
+  }
+
+  // Format login time
+  let loginTimeText = "Not available";
+  if (user.loginTime) {
+    const date = new Date(user.loginTime);
+    loginTimeText = date.toLocaleString();
+  }
+
+  // Build the account page
+  container.innerHTML = `
+    <div class="info-row">
+      <span class="info-label">Username</span>
+      <span class="info-value">${user.username || "—"}</span>
+    </div>
+
+    <div class="info-row">
+      <span class="info-label">First Name</span>
+      <span class="info-value">${user.firstName || "—"}</span>
+    </div>
+
+    <div class="info-row">
+      <span class="info-label">Last Name</span>
+      <span class="info-value">${user.lastName || "—"}</span>
+    </div>
+
+    <div class="info-row">
+      <span class="info-label">Account Type</span>
+      <span class="info-value">${user.trial ? "Trial Account" : "Registered Account"}</span>
+    </div>
+
+    <div class="info-row">
+      <span class="info-label">Logged in at</span>
+      <span class="info-value">${loginTimeText}</span>
+    </div>
+
+    <button class="logout-btn" id="logoutBtn">Logout</button>
+  `;
+
+  // Logout functionality
+  document.getElementById("logoutBtn").addEventListener("click", function() {
+    localStorage.removeItem("bg_user");
+    localStorage.removeItem("savedUsername");
+    localStorage.removeItem("deviceID");
+
+    // Update header buttons immediately
+    const desktopBtn = document.getElementById("accountBtn");
+    const mobileBtn  = document.getElementById("accountBtnMobile");
+
+    if (desktopBtn) {
+      desktopBtn.textContent = "Login";
+      desktopBtn.href = "/p/login.html";
+    }
+    if (mobileBtn) {
+      mobileBtn.textContent = "Login";
+      mobileBtn.href = "/p/login.html";
+    }
+
+    // Redirect to login page
+    window.location.href = "/p/login.html";
+  });
+})();
+</script>
