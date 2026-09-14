@@ -67,7 +67,7 @@ Luke Harrison and Psyche Loui later gathered the labels — thrills, chills, fri
 
 None of those paths require you to be cold, sick, or spiritually chosen. They require a nervous system that still uses hair-raising as one of its intensity signals.
 
-The same social-emotional circuits that make a song feel shared are the ones that treat other people’s faces as contagious cues. If that wider wiring interests you, see [The Social Brain That Expects a Tribe of 150](https://research.betterhealthfacts.com/articles/the-social-brain-that-expects-a-tribe-of-150) and [Is It Normal to Yawn When Someone Else Yawns](https://research.betterhealthfacts.com/is-it-normal-to-yawn-when-someone-else-yawns).
+The same social-emotional circuits that make a song feel shared are the ones that treat other people’s faces as contagious cues. If that wider wiring interests you, see [The Social Brain That Expects a Tribe of 150](https://research.betterhealthfacts.com/articles/the-social-brain-that-expects-a-tribe-of-150) and [Is It Normal to Yawn When Someone Else Yawns](https://research.betterhealthfacts.com/articles/is-it-normal-to-yawn-when-someone-else-yawns).
 
 ## Everyday Triggers That Stack
 
