@@ -67,7 +67,7 @@ Luke Harrison and Psyche Loui later gathered the labels — thrills, chills, fri
 
 None of those paths require you to be cold, sick, or spiritually chosen. They require a nervous system that still uses hair-raising as one of its intensity signals.
 
-The same social-emotional circuits that make a song feel shared are the ones that treat other people’s faces as contagious cues. If that wider wiring interests you, see [The Social Brain That Expects a Tribe of 150](https://research.betterhealthfacts.com/the-social-brain-that-expects-a-tribe-of-150) and [Is It Normal to Yawn When Someone Else Yawns](https://research.betterhealthfacts.com/is-it-normal-to-yawn-when-someone-else-yawns).
+The same social-emotional circuits that make a song feel shared are the ones that treat other people’s faces as contagious cues. If that wider wiring interests you, see [The Social Brain That Expects a Tribe of 150](https://research.betterhealthfacts.com/articles/the-social-brain-that-expects-a-tribe-of-150) and [Is It Normal to Yawn When Someone Else Yawns](https://research.betterhealthfacts.com/is-it-normal-to-yawn-when-someone-else-yawns).
 
 ## Everyday Triggers That Stack
 
@@ -83,7 +83,7 @@ Frisson is more likely when several small conditions line up:
 
 Cold rooms can add real piloerection on top of the emotional kind. That does not make the song fake. It just means two systems used the same skin.
 
-A lump in the throat during the same moment is often the same arousal wave, not a swallowing problem. If that sensation shows up with anxiety more than with music, [Is It Normal to Get a Lump in Your Throat When Anxious](https://research.betterhealthfacts.com/is-it-normal-to-get-a-lump-in-your-throat-when-anxious) maps the muscle pattern.
+A lump in the throat during the same moment is often the same arousal wave, not a swallowing problem. If that sensation shows up with anxiety more than with music, [Is It Normal to Get a Lump in Your Throat When Anxious](https://research.betterhealthfacts.com/articles/is-it-normal-to-get-a-lump-in-your-throat-when-anxious) maps the muscle pattern.
 
 ## When Chills Are Not About the Playlist
 
