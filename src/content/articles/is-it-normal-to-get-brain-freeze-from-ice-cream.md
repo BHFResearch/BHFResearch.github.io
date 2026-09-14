@@ -58,7 +58,7 @@ The brain tissue itself has no pain receptors. What you feel is a protective cov
 
 People who already live with migraine often describe more intense brain freeze. That does not mean ice cream *causes* migraine. It means a trigeminal system that is already jumpy may shout louder when the palate is chilled. Some surveys find a link with migraine; the *Cephalalgia* adult study did not find migraine as a strong risk factor for *having* brain freeze at all, though pain scores were higher when other headache types were also present. Both findings can be true: you can get the reflex without migraine, and migraine can make the seconds feel worse.
 
-Weather-sensitive headaches work on different triggers — pressure, sleep, and hydration rather than a cold palate — but they share the same family of pain pathways. If barometric swings bother you, the same general headache hygiene still helps on hot days when slushies appear. Read more in [Why Weather Changes Give You a Headache](https://research.betterhealthfacts.com/why-weather-changes-give-you-a-headache).
+Weather-sensitive headaches work on different triggers — pressure, sleep, and hydration rather than a cold palate — but they share the same family of pain pathways. If barometric swings bother you, the same general headache hygiene still helps on hot days when slushies appear. Read more in [Why Weather Changes Give You a Headache](https://research.betterhealthfacts.com/articles/why-weather-changes-give-you-a-headache).
 
 ## What Makes an Episode More Likely
 
@@ -88,7 +88,7 @@ Most episodes end on their own as soon as the palate is no longer iced. There is
 
 To prevent the next one, slow down. Let the first bites melt a little. Keep the cold off the soft palate. Use a spoon instead of a straw for slushies if you are prone.
 
-Screen-day headaches are a different problem — near work, neck angle, and dry indoor air — but they also reward small pacing changes rather than panic. If your forehead pain usually follows hours at a laptop rather than a cone, see [Why Screen Days Give You a Headache](https://research.betterhealthfacts.com/why-screen-days-give-you-a-headache).
+Screen-day headaches are a different problem — near work, neck angle, and dry indoor air — but they also reward small pacing changes rather than panic. If your forehead pain usually follows hours at a laptop rather than a cone, see [Why Screen Days Give You a Headache](https://research.betterhealthfacts.com/articles/why-screen-days-give-you-a-headache).
 
 ## Myths vs Facts
 
@@ -107,7 +107,7 @@ Screen-day headaches are a different problem — near work, neck angle, and dry 
 **Myth:** You should never eat frozen food if you get it.  
 **Fact:** Slowing down and avoiding the soft palate is usually enough. Many people still enjoy ice cream without drama.
 
-Odd, inherited, or “wired that way” reflexes show up elsewhere in the body too — a sneeze when you step into sun, a jerk as you fall asleep. They are usually curiosities, not diagnoses. The photic sneeze is a good example of a harmless inherited quirk: [Is It Normal to Sneeze in Bright Sunlight?](https://research.betterhealthfacts.com/is-it-normal-to-sneeze-in-bright-sunlight).
+Odd, inherited, or “wired that way” reflexes show up elsewhere in the body too — a sneeze when you step into sun, a jerk as you fall asleep. They are usually curiosities, not diagnoses. The photic sneeze is a good example of a harmless inherited quirk: [Is It Normal to Sneeze in Bright Sunlight?](https://research.betterhealthfacts.com/articles/is-it-normal-to-sneeze-in-bright-sunlight).
 
 ## When It Is Not “Just Brain Freeze”
 

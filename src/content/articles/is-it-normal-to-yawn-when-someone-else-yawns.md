@@ -64,7 +64,7 @@ Ethologists Elisabetta Palagi and Ivan Norscia have shown that yawn contagion in
 
 You do not need to feel deep empathy in the moment. You only need a nervous system that treats another person’s yawn as a relevant cue.
 
-The same social brain that tracks faces and group rhythm is the one that feels lonely when the group is missing. If that larger mismatch interests you, see [The Social Brain That Expects a Tribe of 150](https://research.betterhealthfacts.com/the-social-brain-that-expects-a-tribe-of-150).
+The same social brain that tracks faces and group rhythm is the one that feels lonely when the group is missing. If that larger mismatch interests you, see [The Social Brain That Expects a Tribe of 150](https://research.betterhealthfacts.com/articles/the-social-brain-that-expects-a-tribe-of-150).
 
 ## What Makes You More Likely to Catch a Yawn
 
@@ -82,7 +82,7 @@ Developmental work by Atsushi Senju and others found that contagious yawning is 
 
 Pets can join the loop. Humans also yawn at yawns from other species in some experiments. The cue is more generic than “only my species, only my friends.”
 
-Sleep pressure is the other big amplifier. If you are already running a sleep debt, a coworker’s yawn is pushing on an open door. Irregular sleep timing makes that worse; the same clock issues show up when a late morning throws the whole day off. See [Why You Feel Off After Sleeping In](https://research.betterhealthfacts.com/why-you-feel-off-after-sleeping-in).
+Sleep pressure is the other big amplifier. If you are already running a sleep debt, a coworker’s yawn is pushing on an open door. Irregular sleep timing makes that worse; the same clock issues show up when a late morning throws the whole day off. See [Why You Feel Off After Sleeping In](https://research.betterhealthfacts.com/articles/why-you-feel-off-after-sleeping-in).
 
 ## When a Yawn Is Not Contagion
 
@@ -98,9 +98,9 @@ A yawn that is **not** mainly social often shows up with:
 
 Excessive yawning — many yawns an hour, for days, out of proportion to sleep — is a different pattern. It can travel with sleep disorders, some migraine attacks, medication effects, or, rarely, other neurologic issues. One or two caught yawns in a meeting are not that pattern.
 
-Yawning can also appear with anxiety. The breath pattern of a yawn briefly changes carbon dioxide and chest tension. That can feel like relief, or like a warning that you “cannot get a full breath.” The feeling is real; it is usually the stress system, not failing lungs. For the broader loop between alertness and modern pressure, see [The Stress System Your Brain Was Built For](https://research.betterhealthfacts.com/the-stress-system-your-brain-was-built-for).
+Yawning can also appear with anxiety. The breath pattern of a yawn briefly changes carbon dioxide and chest tension. That can feel like relief, or like a warning that you “cannot get a full breath.” The feeling is real; it is usually the stress system, not failing lungs. For the broader loop between alertness and modern pressure, see [The Stress System Your Brain Was Built For](https://research.betterhealthfacts.com/articles/the-stress-system-your-brain-was-built-for).
 
-A hypnic jerk at the edge of sleep is a different reflex entirely — a sudden body twitch, not a jaw stretch. If that is the sensation you get as you nod off, it has its own, usually harmless story in [Is It Normal to Jerk Awake as You Fall Asleep?](https://research.betterhealthfacts.com/is-it-normal-to-jerk-awake-as-you-fall-asleep).
+A hypnic jerk at the edge of sleep is a different reflex entirely — a sudden body twitch, not a jaw stretch. If that is the sensation you get as you nod off, it has its own, usually harmless story in [Is It Normal to Jerk Awake as You Fall Asleep?](https://research.betterhealthfacts.com/articles/is-it-normal-to-jerk-awake-as-you-fall-asleep).
 
 ## Myths vs Facts
 
