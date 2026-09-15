@@ -64,7 +64,7 @@ Very. Many people notice it and never name it. It does not clearly favor one sex
 
 Some people only drip with the hottest curry. Others drip with warm broth. Neither pattern proves you are “weak” or “allergic to spice.” It mostly tracks how jumpy those oral-to-nasal reflex loops are — and how often you eat the triggers.
 
-If one nostril always leads the drip, that can overlap with the ordinary [nasal cycle](https://research.betterhealthfacts.com/is-it-normal-to-have-one-nostril-more-blocked), in which the two sides take turns being more open. The reflex still fires; the plumbing just looks lopsided for a few hours.
+If one nostril always leads the drip, that can overlap with the ordinary [nasal cycle](https://research.betterhealthfacts.com/articles/is-it-normal-to-have-one-nostril-more-blocked), in which the two sides take turns being more open. The reflex still fires; the plumbing just looks lopsided for a few hours.
 
 ## Common Triggers Beyond Chili
 
@@ -77,7 +77,7 @@ Capsaicin is the celebrity, not the only actor:
 - Steaming soups, tea, and coffee — heat plus aroma
 - Sometimes simply a large, fast, hot meal
 
-Your [taste system](https://research.betterhealthfacts.com/the-taste-system-calibrated-for-scarcity) was built to notice intensity. Modern kitchens deliver that intensity on purpose. The nasal reflex is part of the same alarm set that makes you salivate and tear up.
+Your [taste system](https://research.betterhealthfacts.com/articles/the-taste-system-calibrated-for-scarcity) was built to notice intensity. Modern kitchens deliver that intensity on purpose. The nasal reflex is part of the same alarm set that makes you salivate and tear up.
 
 ## When It Is Not “Just Spice”
 
@@ -116,7 +116,7 @@ You do not have to give up flavor.
 - For stubborn non-allergic drip in general, supervised nasal capsaicin protocols studied by Fokkens, Van Gerven, and others can reduce nerve reactivity over weeks. That is a clinic plan, not a kitchen experiment with raw chili oil.
 - Simple saline rinses help if the nose already feels reactive from dry air or a cold, which can stack on top of a food reflex.
 
-People who also [sneeze in bright light](https://research.betterhealthfacts.com/is-it-normal-to-sneeze-in-bright-sunlight) sometimes have generally chatty trigeminal wiring. The two reflexes are not the same condition. They just share a neighborhood.
+People who also [sneeze in bright light](https://research.betterhealthfacts.com/articles/is-it-normal-to-sneeze-in-bright-sunlight) sometimes have generally chatty trigeminal wiring. The two reflexes are not the same condition. They just share a neighborhood.
 
 ## When to See a Doctor
 

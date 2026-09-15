@@ -48,7 +48,7 @@ What they usually do **not** do on their own:
 - Block a whole chunk of vision like a curtain
 - Flash like a camera strobe in the dark
 
-If looking at a bright page also gives you a screen-day headache, that is a separate lighting and focus issue, not the floater itself. The two can share a day; they do not share a cause. You can read more about that pattern in [Why Screen Days Give You a Headache](https://research.betterhealthfacts.com/why-screen-days-give-you-a-headache).
+If looking at a bright page also gives you a screen-day headache, that is a separate lighting and focus issue, not the floater itself. The two can share a day; they do not share a cause. You can read more about that pattern in [Why Screen Days Give You a Headache](https://research.betterhealthfacts.com/articles/why-screen-days-give-you-a-headache).
 
 ## Why the Gel Inside the Eye Starts to Cast Shadows
 
@@ -72,7 +72,7 @@ You are more likely to become aware of them if you:
 - Spend time looking at bright, featureless backgrounds
 - Recently had a complete or partial PVD
 
-People who do a lot of near work already load the focusing system in ways the eye did not evolve for; that story is about the focusing muscle and axial length, not the gel. The two can overlap in the same person. Background on that mismatch is in [The Eyes That Never Evolved for Near Work](https://research.betterhealthfacts.com/the-eyes-that-never-evolved-for-near-work).
+People who do a lot of near work already load the focusing system in ways the eye did not evolve for; that story is about the focusing muscle and axial length, not the gel. The two can overlap in the same person. Background on that mismatch is in [The Eyes That Never Evolved for Near Work](https://research.betterhealthfacts.com/articles/the-eyes-that-never-evolved-for-near-work).
 
 Inflammation inside the eye (uveitis), bleeding into the vitreous, and certain rare inherited collagen conditions can also throw debris into the gel. Those are the minority. Most floaters in otherwise well adults are the aging gel doing what aging gels do.
 
@@ -96,7 +96,7 @@ A long-standing floater can feel “new” after:
 
 None of those create a retinal tear by themselves. They change how noticeable a shadow is.
 
-Bright light can also trigger an unrelated sneeze in some people — a different inherited reflex. That pattern is covered in [Is It Normal to Sneeze in Bright Sunlight?](https://research.betterhealthfacts.com/is-it-normal-to-sneeze-in-bright-sunlight).
+Bright light can also trigger an unrelated sneeze in some people — a different inherited reflex. That pattern is covered in [Is It Normal to Sneeze in Bright Sunlight?](https://research.betterhealthfacts.com/articles/is-it-normal-to-sneeze-in-bright-sunlight).
 
 ## When Floaters Are Not Just Floaters
 

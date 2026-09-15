@@ -42,7 +42,7 @@ A typical skier’s-nose episode is:
 
 It is not the same as a cold. A viral cold usually brings fatigue, sore throat, thicker mucus after a day or two, and symptoms that last whether you are indoors or out. Cold-induced drip tracks the weather, not the calendar of an infection.
 
-It is also different from the drip some people get over chili or hot soup — that is a food-triggered nerve reflex described in our article on [a runny nose from spicy food](https://research.betterhealthfacts.com/is-it-normal-to-get-a-runny-nose-from-spicy-food). Same watery look, different trigger.
+It is also different from the drip some people get over chili or hot soup — that is a food-triggered nerve reflex described in our article on [a runny nose from spicy food](https://research.betterhealthfacts.com/articles/is-it-normal-to-get-a-runny-nose-from-spicy-food). Same watery look, different trigger.
 
 ## Why Cold Air Turns the Tap On
 
@@ -69,7 +69,7 @@ The reflex is louder when:
 
 People with asthma, eczema, or hay fever often report more cold-air drip. That is hyper-responsiveness, not proof that winter air is an allergen.
 
-One-sided drip can still be this reflex. The [nasal cycle](https://research.betterhealthfacts.com/is-it-normal-to-have-one-nostril-more-blocked) already shifts airflow from side to side through the day. The more open side may drip first.
+One-sided drip can still be this reflex. The [nasal cycle](https://research.betterhealthfacts.com/articles/is-it-normal-to-have-one-nostril-more-blocked) already shifts airflow from side to side through the day. The more open side may drip first.
 
 ## Hidden Triggers and Look-Alikes
 
@@ -108,7 +108,7 @@ Skier’s nose itself is not dangerous. The worry list is about missing a virus,
 **Fact:** Allergy can raise the volume, but cold-air rhinorrhea is common in people with negative allergy tests.
 
 **Myth:** You should stay indoors until it stops.  
-**Fact:** The reflex is a reason to carry a tissue, not a reason to avoid daylight and movement. Outdoor air still has benefits described in our piece on [why your lungs still expect moving outdoor air](https://research.betterhealthfacts.com/why-your-lungs-still-expect-moving-outdoor-air).
+**Fact:** The reflex is a reason to carry a tissue, not a reason to avoid daylight and movement. Outdoor air still has benefits described in our piece on [why your lungs still expect moving outdoor air](https://research.betterhealthfacts.com/articles/why-your-lungs-still-expect-moving-outdoor-air).
 
 **Myth:** Salt sprays will “dry you out” and make winter worse.  
 **Fact:** Isotonic saline rinses or sprays wash irritants and thin secretions. They do not shut the reflex off, but they often make the drip less annoying.

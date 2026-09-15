@@ -62,7 +62,7 @@ Everyday amplifiers include:
 - Clenching or bracing the jaw during concentration or stress
 - Sleep grinding (bruxism), which loads the joint for hours you do not feel
 - A wide yawn after a period of limited movement
-- Sitting with the head jutted forward, which changes how the jaw muscles rest — a posture pattern also discussed in our piece on [why your neck still expects a horizon](https://research.betterhealthfacts.com/why-your-neck-still-expects-a-horizon)
+- Sitting with the head jutted forward, which changes how the jaw muscles rest — a posture pattern also discussed in our piece on [why your neck still expects a horizon](https://research.betterhealthfacts.com/articles/why-your-neck-still-expects-a-horizon)
 
 None of these automatically means the joint is damaged. They change the *timing* of an already slightly off-center disc.
 
@@ -93,7 +93,7 @@ A joint that was only noisy can become sore when load piles up:
 - A hit to the jaw or a wide yawn that felt like a stretch
 - Sleeping face-down on one side every night
 
-These are the same kinds of repeated, one-position loads that bother other joints when variety disappears — a theme that also shows up in articles such as [why your joints still expect motion, not rest](https://research.betterhealthfacts.com/why-your-joints-still-expect-motion-not-rest).
+These are the same kinds of repeated, one-position loads that bother other joints when variety disappears — a theme that also shows up in articles such as [why your joints still expect motion, not rest](https://research.betterhealthfacts.com/articles/why-your-joints-still-expect-motion-not-rest).
 
 ## When to Worry
 
@@ -125,7 +125,7 @@ Locking that will not release, or pain after a blow, is not a “wait and see”
 **Fact:** Many people click for decades without degenerative change. Crepitus and persistent pain are the signals that the surface of the joint needs a closer look — not the click by itself.
 
 **Myth:** Cracking the jaw on purpose will “put the disc back.”
-**Fact:** Habitual wide opening or forcing a pop can stretch ligaments further. The same caution applies to other joints; noise is not a treatment, a point also made in our [myths versus facts about cracking your knuckles](https://research.betterhealthfacts.com/myths-vs-facts-about-cracking-your-knuckles).
+**Fact:** Habitual wide opening or forcing a pop can stretch ligaments further. The same caution applies to other joints; noise is not a treatment, a point also made in our [myths versus facts about cracking your knuckles](https://research.betterhealthfacts.com/articles/myths-vs-facts-about-cracking-your-knuckles).
 
 ## How to Manage a Noisy but Comfortable Jaw
 

@@ -38,7 +38,7 @@ Borborygmi are bowel sounds created when the intestinal wall contracts and pushe
 
 Classic physiology work by Walter B. Cannon at the start of the twentieth century linked some of these sounds to strong fasting contractions of the empty stomach. Later, Joseph H. Szurszewski mapped a repeating fasting pattern in the small bowel that Charles F. Code and colleagues named the **migrating motor complex** (MMC). In humans the MMC typically cycles every 90 to 120 minutes during fasting. Phase III is a short burst of strong contractions that travels down the small intestine. That burst is a common soundtrack for the “my stomach is roaring and I have not even thought about lunch” moment.
 
-The same tube is noisy after meals for a different reason: mixing and emptying. That is why a large, fizzy, or rushed lunch can produce a soundtrack all afternoon — a pattern that often travels with [afternoon bloating](https://research.betterhealthfacts.com/why-you-feel-bloated-every-afternoon) and extra [burping](https://research.betterhealthfacts.com/is-it-normal-to-burp-all-afternoon).
+The same tube is noisy after meals for a different reason: mixing and emptying. That is why a large, fizzy, or rushed lunch can produce a soundtrack all afternoon — a pattern that often travels with [afternoon bloating](https://research.betterhealthfacts.com/articles/why-you-feel-bloated-every-afternoon) and extra [burping](https://research.betterhealthfacts.com/is-it-normal-to-burp-all-afternoon).
 
 ## Why Empty Gut Sounds Louder
 
@@ -49,7 +49,7 @@ Food is an acoustic damper. A stomach holding a meal has less free air-fluid int
 
 Hunger hormones such as ghrelin rise in a fasting window and can ride along with MMC timing. That is why a growl and a thought of food often arrive together. The growl is still a mechanical event. It is not a precise calorie meter.
 
-People who skip breakfast, delay lunch, or drink only coffee for hours hear this more. Coffee itself can wake intestinal motility — the same reason [coffee can send you to the bathroom](https://research.betterhealthfacts.com/why-coffee-makes-you-need-the-bathroom) — so a loud morning rumble after an espresso is physiology, not proof you are “running on empty” in a dangerous way.
+People who skip breakfast, delay lunch, or drink only coffee for hours hear this more. Coffee itself can wake intestinal motility — the same reason [coffee can send you to the bathroom](https://research.betterhealthfacts.com/articles/why-coffee-makes-you-need-the-bathroom) — so a loud morning rumble after an espresso is physiology, not proof you are “running on empty” in a dangerous way.
 
 ## Common Everyday Triggers
 
@@ -113,7 +113,7 @@ You do not need a silent abdomen. You may want fewer spotlight moments.
 - Slow down meals and put drinks between bites instead of using them as a rinse-and-talk tool
 - Cut back on carbonation and large doses of sorbitol or other polyols if gas is the main soundtrack
 - Keep meal timing roughly regular so the fasting wave is not always landing in a boardroom
-- Walk after larger meals; movement helps gas transit and is the same simple habit that supports [blood sugar after eating](https://research.betterhealthfacts.com/why-your-blood-sugar-still-expects-a-walk-after-meals)
+- Walk after larger meals; movement helps gas transit and is the same simple habit that supports [blood sugar after eating](https://research.betterhealthfacts.com/articles/why-your-blood-sugar-still-expects-a-walk-after-meals)
 - If anxiety is the amplifier, a few slower nasal breaths before a quiet meeting reduce air swallowing more effectively than clenching the belly
 
 If lactose, a new fiber supplement, or a sugar-free snack is the obvious trigger, change one variable for a week and listen. That is more informative than a cabinet of untargeted “digestive” products.

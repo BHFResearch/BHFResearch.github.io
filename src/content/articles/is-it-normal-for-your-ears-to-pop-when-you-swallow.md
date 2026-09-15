@@ -44,7 +44,7 @@ It is not the same as:
 - Pain that climbs during a descent on a flight and will not ease
 - A click that comes from the jaw joint in front of the ear rather than from inside the canal
 
-The last distinction matters. The jaw joint sits immediately in front of the ear canal. A mechanical jaw click can be mistaken for an ear pop. If the sound tracks chewing more than swallowing, the joint is the more likely source, as described in our guide to [jaw clicking while you chew](https://research.betterhealthfacts.com/is-it-normal-for-your-jaw-to-click-when-you-chew).
+The last distinction matters. The jaw joint sits immediately in front of the ear canal. A mechanical jaw click can be mistaken for an ear pop. If the sound tracks chewing more than swallowing, the joint is the more likely source, as described in our guide to [jaw clicking while you chew](https://research.betterhealthfacts.com/articles/is-it-normal-for-your-jaw-to-click-when-you-chew).
 
 ## Why Swallowing and Yawning Open the Ear
 
@@ -71,7 +71,7 @@ You notice the click more when the pressure difference is larger or when the roo
 - After swimming or a long session with headphones that change how you hear your own swallow
 - First thing in the morning, when overnight mucus has pooled near the tube opening
 
-A related everyday pattern is that one side of the nose is often more open than the other. That [nasal cycle](https://research.betterhealthfacts.com/is-it-normal-to-have-one-nostril-more-blocked) can make one ear feel slightly fuller until a good yawn evens things out.
+A related everyday pattern is that one side of the nose is often more open than the other. That [nasal cycle](https://research.betterhealthfacts.com/articles/is-it-normal-to-have-one-nostril-more-blocked) can make one ear feel slightly fuller until a good yawn evens things out.
 
 ## When the Tube Will Not Pop — and When It Pops Too Easily
 
@@ -81,7 +81,7 @@ Two opposite problems share the same anatomy.
 
 **Patulous Eustachian tube** means the valve stays a little too open. People hear their own breathing and speech as if they were speaking inside a barrel (autophony). Weight loss, dehydration, and long periods of standing can unmask it. Sitting or lying down often improves the sensation because venous filling around the tube helps the valve close again.
 
-Neither pattern is the same as [hearing your heartbeat in the ear](https://research.betterhealthfacts.com/is-it-normal-to-hear-your-heartbeat-in-your-ear), which is a vascular sound rather than a pressure-equalizing click.
+Neither pattern is the same as [hearing your heartbeat in the ear](https://research.betterhealthfacts.com/articles/is-it-normal-to-hear-your-heartbeat-in-your-ear), which is a vascular sound rather than a pressure-equalizing click.
 
 ## Hidden Triggers
 

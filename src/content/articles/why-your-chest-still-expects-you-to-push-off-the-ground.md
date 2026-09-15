@@ -120,13 +120,13 @@ You do not need a new identity as a calisthenics athlete. You need a few honest 
 
 **Open the front without hanging on a stretch.** Stand in a doorway and rest the forearms on the frame, then step through until you feel a gentle spread across the chest. Breathe into the ribs for a few cycles. Come out before it becomes a grimace.
 
-**Reach behind you.** Fasten something at your back. Slide a hand into a rear jeans pocket. Comb the hair at the back of the head. These are the ranges the rotator cuff and the front of the chest still expect, and they pair naturally with the work described in <a href="https://research.betterhealthfacts.com/why-your-rotator-cuff-still-expects-reaching-behind">why your rotator cuff still expects reaching behind</a>.
+**Reach behind you.** Fasten something at your back. Slide a hand into a rear jeans pocket. Comb the hair at the back of the head. These are the ranges the rotator cuff and the front of the chest still expect, and they pair naturally with the work described in <a href="https://research.betterhealthfacts.com/articles/why-your-rotator-cuff-still-expects-reaching-behind">why your rotator cuff still expects reaching behind</a>.
 
-**Hang and reach the other way.** A brief dead hang or a high shelf reach reminds the scapulae they can rotate up, which takes pressure off a short pec minor. That story continues in <a href="https://research.betterhealthfacts.com/why-your-scapulae-still-expect-you-to-hang">why your scapulae still expect you to hang</a>.
+**Hang and reach the other way.** A brief dead hang or a high shelf reach reminds the scapulae they can rotate up, which takes pressure off a short pec minor. That story continues in <a href="https://research.betterhealthfacts.com/articles/why-your-scapulae-still-expect-you-to-hang">why your scapulae still expect you to hang</a>.
 
 **Get off the floor on purpose.** Sit on the ground to put on shoes. Stand up without using a chair arm if you can do it smoothly. The chest, hips, and quads all get a vote.
 
-**Unround the workday.** Raise the screen. Bring the keyboard closer. Every twenty or thirty minutes, stand, open the arms, and take three slower breaths. The same seated-life problem shows up in how the whole skeleton is loaded, which is why <a href="https://research.betterhealthfacts.com/the-posture-your-skeleton-was-designed-for">the posture your skeleton was designed for</a> still matters as much as any single muscle group.
+**Unround the workday.** Raise the screen. Bring the keyboard closer. Every twenty or thirty minutes, stand, open the arms, and take three slower breaths. The same seated-life problem shows up in how the whole skeleton is loaded, which is why <a href="https://research.betterhealthfacts.com/articles/the-posture-your-skeleton-was-designed-for">the posture your skeleton was designed for</a> still matters as much as any single muscle group.
 
 Mild muscle soreness after new floor work is expected. Sharp front-shoulder pain, tingling down the arm, or a feeling of instability is a reason to scale back and, if it persists, get a hands-on assessment.
 
