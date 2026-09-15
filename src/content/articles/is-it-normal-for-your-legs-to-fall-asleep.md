@@ -44,7 +44,7 @@ It is not the same as:
 - Numbness that starts in both feet at rest and climbs upward
 - Nighttime restlessness that makes you *need* to move the legs
 
-Those last patterns belong to other stories, including conditions discussed in [why you get restless legs at night](https://research.betterhealthfacts.com/why-you-get-restless-legs-at-night).
+Those last patterns belong to other stories, including conditions discussed in [why you get restless legs at night](https://research.betterhealthfacts.com/articles/why-you-get-restless-legs-at-night).
 
 ## Why a Leg “Falls Asleep”
 
@@ -75,9 +75,9 @@ If pressure lasted much longer and much harder, myelin can be locally damaged (n
 - Long car trips with the same hip externally rotated
 - Floor sitting in a tight cross-legged pose without changing sides
 
-The same logic shows up in the hands when a wrist is bent under a pillow — a pattern covered in [why your hands tingle at night](https://research.betterhealthfacts.com/why-your-hands-tingle-at-night). Nerves dislike being the filling in a bone-and-furniture sandwich.
+The same logic shows up in the hands when a wrist is bent under a pillow — a pattern covered in [why your hands tingle at night](https://research.betterhealthfacts.com/articles/why-your-hands-tingle-at-night). Nerves dislike being the filling in a bone-and-furniture sandwich.
 
-Circulation in the big vessels of the leg is a separate system. Sitting still also slows the calf muscle pump that helps veins return blood, which is why ankles can swell on long flights — a theme in [why your veins still expect the calf pump](https://research.betterhealthfacts.com/why-your-veins-still-expect-the-calf-pump). Swelling and “asleep” nerves can coexist after a long sit, but the pins and needles themselves are a nerve story more than a vein story.
+Circulation in the big vessels of the leg is a separate system. Sitting still also slows the calf muscle pump that helps veins return blood, which is why ankles can swell on long flights — a theme in [why your veins still expect the calf pump](https://research.betterhealthfacts.com/articles/why-your-veins-still-expect-the-calf-pump). Swelling and “asleep” nerves can coexist after a long sit, but the pins and needles themselves are a nerve story more than a vein story.
 
 ## How Long Should Feeling Take to Return?
 
