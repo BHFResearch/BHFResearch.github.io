@@ -1,7 +1,7 @@
 ---
 title: "Is It Normal to Get a Metallic Taste in Your Mouth?"
 category: "Causes & Conditions"
-pubDate: "2026-09-19"
+pubDate: 2026-09-19
 description: "A sudden coin-like taste is usually dysgeusia from reflux, a cold, a supplement, hormones, or dry mouth—not a mystery toxin. Here is what drives it, when it is ordinary, and when to look closer."
 image: "/images/articles/is-it-normal-to-get-a-metallic-taste-in-your-mouth.jpg"
 ---

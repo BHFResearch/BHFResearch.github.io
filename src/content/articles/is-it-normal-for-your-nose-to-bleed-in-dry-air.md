@@ -1,7 +1,7 @@
 ---
 title: "Is It Normal for Your Nose to Bleed in Dry Air?"
 category: "Causes & Conditions"
-pubDate: "2026-09-03"
+pubDate: 2026-09-03
 description: "A brief front-of-nose bleed in heated or desert-dry air is usually a cracked Kiesselbach plexus, not a clotting emergency. Here is why dry rooms start epistaxis, what actually helps, and when a nosebleed is not just weather."
 image: "/images/articles/is-it-normal-for-your-nose-to-bleed-in-dry-air.jpg"
 ---

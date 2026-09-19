@@ -1,7 +1,7 @@
 ---
 title: "Why Your Thyroid Still Expects Iodine and Winter"
 category: "Causes & Conditions"
-pubDate: "2026-09-19"
+pubDate: 2026-09-19
 description: "The thyroid still concentrates scarce iodine and lifts winter TSH as if seasons and seafood still set the year. Here is the mismatch with iodized salt, indoor heat, and a single lab number."
 image: "/images/articles/why-your-thyroid-still-expects-iodine-and-winter.jpg"
 ---

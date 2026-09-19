@@ -1,7 +1,7 @@
 ---
 title: "Why Your Bladder Still Expects Distance and Delay"
 category: "Causes & Conditions"
-pubDate: "2026-09-19"
+pubDate: 2026-09-19
 description: "The bladder still expects a long walk and a deferred void, not all-day sipping and just-in-case bathroom trips. Here is the mismatch with modern hydration culture and nearby toilets."
 image: "/images/articles/why-your-bladder-still-expects-distance-and-delay.jpg"
 ---

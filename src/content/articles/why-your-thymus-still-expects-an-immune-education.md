@@ -1,7 +1,7 @@
 ---
 title: "Why Your Thymus Still Expects an Immune Education"
 category: "Causes & Conditions"
-pubDate: "2026-09-19"
+pubDate: 2026-09-19
 description: "The thymus still schools T cells against a world of dirt, siblings, and seasonal microbes. Here is what involution, sterile rooms, and a quiet childhood mean for that old classroom."
 image: "/images/articles/why-your-thymus-still-expects-an-immune-education.jpg"
 ---

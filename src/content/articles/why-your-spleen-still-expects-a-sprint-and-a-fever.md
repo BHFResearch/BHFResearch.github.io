@@ -1,7 +1,7 @@
 ---
 title: "Why Your Spleen Still Expects a Sprint and a Fever"
 category: "Causes & Conditions"
-pubDate: "2026-09-19"
+pubDate: 2026-09-19
 description: "The spleen still filters old red cells, stores a modest blood reserve, and watches the bloodstream for encapsulated bacteria. Modern stillness and fewer childhood infections leave that dual job under-used."
 image: "/images/articles/why-your-spleen-still-expects-a-sprint-and-a-fever.jpg"
 ---

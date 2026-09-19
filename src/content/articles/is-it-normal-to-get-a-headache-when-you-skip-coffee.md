@@ -1,7 +1,7 @@
 ---
 title: "Is It Normal to Get a Headache When You Skip Coffee?"
 category: "Causes & Conditions"
-pubDate: "2026-09-19"
+pubDate: 2026-09-19
 description: "A missed coffee often brings a real caffeine-withdrawal headache. Here is why vessels and adenosine receptors rebound, how common it is, and how to ease the day without panic."
 image: "/images/articles/is-it-normal-to-get-a-headache-when-you-skip-coffee.jpg"
 ---

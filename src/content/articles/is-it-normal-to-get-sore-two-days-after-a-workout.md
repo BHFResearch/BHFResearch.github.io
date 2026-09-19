@@ -1,7 +1,7 @@
 ---
 title: "Is It Normal to Get Sore Two Days After a Workout?"
 category: "Causes & Conditions"
-pubDate: "2026-09-19"
+pubDate: 2026-09-19
 description: "Soreness that peaks a day or two after a new or downhill session is delayed-onset muscle soreness, not lactic acid leftover. Here is why it arrives late, when it is useful, and when it is not."
 image: "/images/articles/is-it-normal-to-get-sore-two-days-after-a-workout.jpg"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Why Your Blood Pressure Still Expects Scarce Salt"
 category: "Causes & Conditions"
-pubDate: "2026-09-19"
+pubDate: 2026-09-19
 description: "Human blood pressure was tuned for scarce salt, potassium-rich plants, and days spent upright. Here is why modern sodium, sitting, and all-day sipping shift the set point — and what still helps."
 image: "/images/articles/why-your-blood-pressure-still-expects-scarce-salt.jpg"
 ---

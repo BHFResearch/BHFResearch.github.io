@@ -1,7 +1,7 @@
 ---
 title: "Is It Normal to Get a Headache From Red Wine?"
 category: "Causes & Conditions"
-pubDate: "2026-09-04"
+pubDate: 2026-09-04
 description: "A red-wine headache is common and usually not a sulfite allergy. Here is what tannins, histamine, alcohol, and ALDH2 actually do — and when the ache is asking for more than water and time."
 image: "/images/articles/is-it-normal-to-get-a-headache-from-red-wine.jpg"
 ---

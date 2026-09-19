@@ -1,7 +1,7 @@
 ---
 title: "Is It Normal for Your Fingers to Swell in the Heat?"
 category: "Causes & Conditions"
-pubDate: "2026-09-02"
+pubDate: 2026-09-02
 description: "Tight rings on a hot day are usually heat edema — skin vessels widening to dump heat, plus a little fluid leaking into the fingers. Here is why it happens, how to ease it, and when swelling needs a closer look."
 image: "/images/articles/is-it-normal-for-your-fingers-to-swell-in-the-heat.jpg"
 ---

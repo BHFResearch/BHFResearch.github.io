@@ -1,7 +1,7 @@
 ---
 title: "Why Your Fever Still Expects Rest and Warmth"
 category: "Causes & Conditions"
-pubDate: "2026-09-19"
+pubDate: 2026-09-19
 description: "A modest fever is an old coordinated defense, not a random overheating. Here is why the hypothalamus still raises the set point, what rest and warmth do, and when a high temperature is not just an ancestral script."
 image: "/images/articles/why-your-fever-still-expects-rest-and-warmth.jpg"
 ---

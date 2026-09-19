@@ -1,7 +1,7 @@
 ---
 title: "Why Your Appendix Still Expects a Microbial Reserve"
 category: "Causes & Conditions"
-pubDate: "2026-09-19"
+pubDate: 2026-09-19
 description: "The appendix is not a leftover mistake. It is a blind-ended microbial safe house and immune outpost that evolved to restock the gut after diarrhea — a job modern sanitation and antibiotics have quietly changed."
 image: "/images/articles/why-your-appendix-still-expects-a-microbial-reserve.jpg"
 ---

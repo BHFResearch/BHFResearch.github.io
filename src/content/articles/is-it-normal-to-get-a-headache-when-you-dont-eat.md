@@ -1,7 +1,7 @@
 ---
 title: "Is It Normal to Get a Headache When You Don't Eat?"
 category: "Causes & Conditions"
-pubDate: "2026-09-05"
+pubDate: 2026-09-05
 description: "A skipped meal often brings a dull, whole-head ache that eases after food. Here is what fasting headache really is, why it is not always low blood sugar, and when to look closer."
 image: "/images/articles/is-it-normal-to-get-a-headache-when-you-dont-eat.jpg"
 ---
