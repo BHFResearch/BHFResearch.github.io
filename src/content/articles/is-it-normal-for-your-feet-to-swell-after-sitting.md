@@ -1,7 +1,7 @@
 ---
 title: "Is It Normal for Your Feet to Swell After Sitting?"
 category: "Causes & Conditions"
-pubDate: "2026-09-01"
+pubDate: 2026-09-01
 description: "Puffy ankles after a desk day or a long flight are usually dependent edema from a quiet calf pump. Here is why fluid pools, when it is ordinary, and which signs need a closer look."
 image: "/images/articles/is-it-normal-for-your-feet-to-swell-after-sitting.jpg"
 ---
