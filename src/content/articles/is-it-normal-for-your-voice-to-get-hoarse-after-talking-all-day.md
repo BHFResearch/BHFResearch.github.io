@@ -1,7 +1,7 @@
 ---
 title: "Is It Normal for Your Voice to Get Hoarse After Talking All Day"
 category: "Skin & Senses"
-pubDate: "2026-09-25"
+pubDate: 2026-09-25
 description: "A rasp or fade after a long day of talking is usually vocal-fold swelling and muscle fatigue, not a ruined larynx. Titze, Hirano, Sataloff and Roy mapped why teachers, calls and dry rooms do it."
 image: "/images/articles/is-it-normal-for-your-voice-to-get-hoarse-after-talking-all-day.jpg"
 ---
