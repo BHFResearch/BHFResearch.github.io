@@ -1,7 +1,7 @@
 ---
 title: "Is It Normal to Get a Headache When You’re Dehydrated"
 category: "Causes & Conditions"
-pubDate: "2026-09-25"
+pubDate: 2026-09-25
 description: "A dull, band-like headache that eases after water is a common response to modest fluid loss. Blau, Wöber and Spigt mapped how volume, vessels and attention turn thirst into pain — and when it is not just dehydration."
 image: "/images/articles/is-it-normal-to-get-a-headache-when-youre-dehydrated.jpg"
 ---
