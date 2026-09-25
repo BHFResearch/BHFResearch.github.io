@@ -1,7 +1,7 @@
 ---
 title: "Is It Normal for Your Pinky to Tingle When You Lean on Your Elbow"
 category: "Movement & Posture"
-pubDate: "2026-09-25"
+pubDate: 2026-09-25
 description: "Pinky and ring-finger buzzing when you lean on a desk or rest an arm on a car window is usually the ulnar nerve in the cubital tunnel, not a dying hand. Feindel, Osborne and Wadsworth mapped the squeeze."
 image: "/images/articles/is-it-normal-for-your-pinky-to-tingle-when-you-lean-on-your-elbow.jpg"
 ---
