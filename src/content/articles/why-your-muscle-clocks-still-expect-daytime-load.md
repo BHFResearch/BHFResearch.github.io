@@ -1,7 +1,7 @@
 ---
 title: "Why Your Muscle Clocks Still Expect Daytime Load"
 category: "Movement & Posture"
-pubDate: "2026-09-25"
+pubDate: 2026-09-25
 description: "Skeletal muscle runs its own 24-hour clocks. Karyn Esser, Stefano Schiaffino and Kenneth Dyar showed those clocks still expect load, glycogen use and a quiet night — not a chair all day and a gym after dark."
 image: "/images/articles/why-your-muscle-clocks-still-expect-daytime-load.jpg"
 ---

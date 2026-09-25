@@ -1,7 +1,7 @@
 ---
 title: "Why Your Vagus Nerve Still Expects a Long Exhale"
 category: "Mind & Stress"
-pubDate: "2026-09-25"
+pubDate: 2026-09-25
 description: "The vagus nerve still treats a long exhale, an upright meal and a finished chase as safety cues. Otto Loewi, Kevin Tracey and Julian Thayer mapped the circuitry. Shallow desk breathing and unfinished stress leave the brake half-applied."
 image: "/images/articles/why-your-vagus-nerve-still-expects-a-long-exhale.jpg"
 ---

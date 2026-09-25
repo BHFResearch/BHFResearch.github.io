@@ -1,7 +1,7 @@
 ---
 title: "Why Your Immune Cells Still Expect Night"
 category: "Sleep & Recovery"
-pubDate: "2026-09-25"
+pubDate: 2026-09-25
 description: "White blood cells still peak in human blood during the rest phase and traffic into tissues on a 24-hour clock. Scheiermann, Frenette, Born and Lange mapped why evening light and shift work scramble an old night script."
 image: "/images/articles/why-your-immune-cells-still-expect-night.jpg"
 ---

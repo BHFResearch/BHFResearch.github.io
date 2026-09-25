@@ -1,7 +1,7 @@
 ---
 title: "Why Your Bone Marrow Still Expects Night and Load"
 category: "Hormones & Metabolism"
-pubDate: "2026-09-25"
+pubDate: 2026-09-25
 description: "Hematopoietic stem cells still time their release to a dark night and respond to mechanical load through bone. Sitting under evening light leaves the marrow niche running a quieter script than the one Méndez-Ferrer and Frenette mapped."
 image: "/images/articles/why-your-bone-marrow-still-expects-night-and-load.jpg"
 ---

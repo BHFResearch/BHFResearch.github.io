@@ -1,7 +1,7 @@
 ---
 title: "Why Your Collagen Still Expects Load and Vitamin C"
 category: "Movement & Posture"
-pubDate: "2026-09-25"
+pubDate: 2026-09-25
 description: "Collagen is not a powder you swallow and forget. Fibroblasts still need mechanical load and ascorbate to build the triple helix James Lind, Szent-Györgyi, Gross and Prockop mapped. Sitting and a low-C modern plate quietly thin that cue."
 image: "/images/articles/why-your-collagen-still-expects-load-and-vitamin-c.jpg"
 ---
