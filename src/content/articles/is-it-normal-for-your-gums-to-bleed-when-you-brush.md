@@ -1,7 +1,7 @@
 ---
 title: "Is It Normal for Your Gums to Bleed When You Brush"
 category: "Causes & Conditions"
-pubDate: "2026-09-25"
+pubDate: 2026-09-25
 description: "Pink on the brush is common and usually means inflamed gingiva from plaque, not “healthy exercise.” Löe, Page, Lindhe and Marsh mapped the biofilm-to-bleeding loop — and when pink foam is not just a skipped floss."
 image: "/images/articles/is-it-normal-for-your-gums-to-bleed-when-you-brush.jpg"
 ---
