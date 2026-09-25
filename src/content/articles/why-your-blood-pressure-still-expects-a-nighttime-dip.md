@@ -1,7 +1,7 @@
 ---
 title: "Why Your Blood Pressure Still Expects a Nighttime Dip"
 category: "Heart & Circulation"
-pubDate: "2026-09-25"
+pubDate: 2026-09-25
 description: "Healthy blood pressure still falls 10–20% in true darkness. O’Brien, Pickering, Kario and Staessen mapped why a missing night dip predicts risk — and how light, salt, apnea and sitting flatten an old circadian script."
 image: "/images/articles/why-your-blood-pressure-still-expects-a-nighttime-dip.jpg"
 ---
