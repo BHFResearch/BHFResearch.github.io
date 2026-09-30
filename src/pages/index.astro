@@ -197,63 +197,67 @@ const homepageArticles = latest.slice(0, PAGE_SIZE);
     gap: 24px;
   }
 
-  .article-card {
-    border-radius: 22px;
-    overflow: hidden;
-    background:
-      linear-gradient(
-        180deg,
-        rgba(17,24,39,0.96),
-        rgba(31,41,55,0.98)
-      );
+	 .article-card {
+	  position: relative;
+	  border-radius: 18px;
+	  overflow: hidden;
+	  background: #0f172a;
+	  border: 1px solid rgba(255, 255, 255, 0.1);
+	  transition: 0.25s ease;
+	}
 
-    border: 1px solid rgba(255,255,255,0.08);
+	.article-card:hover {
+	  transform: translateY(-4px);
+	  border-color: rgba(125, 211, 252, 0.45);
+	  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+	}
 
-    transition:
-      transform 0.18s ease,
-      border-color 0.18s ease,
-      box-shadow 0.18s ease;
+	.article-card a {
+	  display: block;
+	  color: inherit;
+	  text-decoration: none;
+	  height: 100%;
+	}
 
-    will-change: transform;
-  }
+	.article-image {
+	  width: 100%;
+	  height: 240px;
+	  object-fit: cover;
+	  display: block;
+	}
 
-  .article-card:hover {
-    transform: translateY(-5px);
+	/* Title + Category over image */
+	.card-title-overlay {
+	  position: absolute;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  padding: 28px 18px 18px;
+	  background: linear-gradient(
+		to top,
+		rgba(2, 6, 23, 0.92) 0%,
+		rgba(2, 6, 23, 0.75) 55%,
+		transparent 100%
+	  );
+	}
 
-    border-color: rgba(125,211,252,0.45);
+	.card-title-overlay .article-category {
+	  display: block;
+	  margin-bottom: 8px;
+	  color: #7dd3fc;
+	  font-size: 0.75rem;
+	  letter-spacing: 0.8px;
+	  text-transform: uppercase;
+	  font-weight: 700;
+	}
 
-    box-shadow:
-      0 12px 30px rgba(0,0,0,0.28);
-  }
-
-  .article-card a {
-    color: inherit;
-    display: block;
-    height: 100%;
-  }
-
-  .article-image {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-    display: block;
-  }
-
-  .article-content {
-    padding: 22px;
-  }
-
-  .article-content h2 {
-    margin: 0 0 12px;
-    line-height: 1.25;
-    font-size: 1.35rem;
-  }
-
-  .article-content p {
-    color: #cbd5e1;
-    line-height: 1.6;
-    font-size: 0.96rem;
-  }
+	.card-title-overlay h2 {
+	  margin: 0;
+	  font-size: 1.15rem;
+	  line-height: 1.35;
+	  color: #f8fafc;
+	  font-weight: 600;
+	}
 
   .pagination {
 	  display: flex;
