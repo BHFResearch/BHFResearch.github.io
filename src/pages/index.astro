@@ -64,40 +64,37 @@ const homepageArticles = latest.slice(0, PAGE_SIZE);
     </header>
   )}
 
-  <section class="articles-grid">
+	<h2 style="margin: 10px 0 8px; font-size: 1.6rem;">Latest Articles</h2>
 
-    {homepageArticles.map(article => (
-      <article class="article-card">
+	<section class="articles-grid">
 
-        <a href={`/articles/${article.slug}/`}>
+	  {homepageArticles.map(article => (
+		<article class="article-card">
 
-          {article.data.image && (
-            <img
-              src={article.data.image}
-              alt={article.data.title}
-              class="article-image"
-              loading="lazy"
-            />
-          )}
+		  <a href={`/articles/${article.slug}/`}>
 
-          <div class="article-content">
+			{article.data.image && (
+			  <img
+				src={article.data.image}
+				alt={article.data.title}
+				class="article-image"
+				loading="lazy"
+			  />
+			)}
 
-            <span class="article-category">
-              {article.data.category}
-            </span>
+			<div class="card-title-overlay">
+			  <span class="article-category">
+				{article.data.category}
+			  </span>
+			  <h2>{article.data.title}</h2>
+			</div>
 
-            <h2>{article.data.title}</h2>
+		  </a>
 
-            <p>{article.data.description}</p>
+		</article>
+	  ))}
 
-          </div>
-
-        </a>
-
-      </article>
-    ))}
-
-  </section>
+	</section>
 
   {latest.length > PAGE_SIZE && (
 	  <nav class="pagination">
