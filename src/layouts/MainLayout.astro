@@ -94,9 +94,19 @@ const { title = "Better Health Facts" } = Astro.props;
     }
 
     a {
-      text-decoration: none;
-      color: var(--primary);
-    }
+	  color: #7dd3fc;              /* soft sky blue – already used in your search results */
+	  text-decoration: none;
+	  transition: color 0.2s ease;
+	}
+
+	a:hover {
+	  color: #bae6fd;              /* lighter on hover */
+	  text-decoration: underline;
+	}
+
+	a:visited {
+	  color: #67e8f9;              /* slightly different cyan so visited links are still readable */
+	}
 
     /* HEADER */
 
