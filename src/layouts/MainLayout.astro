@@ -232,50 +232,65 @@ const { title = "Better Health Facts" } = Astro.props;
       padding: 10px 30px;
     }
 
-    /* FOOTER */
+	/* Related Articles Cards - Dark Theme */
+	.card {
+	  border: 1px solid rgba(255, 255, 255, 0.1);
+	  padding: 0;
+	  border-radius: 16px;
+	  margin-bottom: 20px;
+	  transition: 0.2s ease;
+	  background: #0f172a;
+	  color: #f8fafc;
+	  overflow: hidden;
+	}
 
-    footer {
-      background: #f3f4f6;
+	.card:hover {
+	  border-color: rgba(125, 211, 252, 0.4);
+	  transform: translateY(-3px);
+	  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+	}
 
-      color: #111827;
+	.card a {
+	  display: block;
+	  color: inherit;
+	  text-decoration: none;
+	}
 
-      padding: 20px;
+	.card img {
+	  width: 100%;
+	  height: 180px;
+	  object-fit: cover;
+	  display: block;
+	}
 
-      text-align: center;
+	.card-content {
+	  padding: 18px 20px 22px;
+	}
 
-      font-size: 14px;
+	.card h4 {
+	  margin: 0 0 8px 0;
+	  font-size: 1.15rem;
+	  color: #7dd3fc;
+	  line-height: 1.4;
+	}
 
-      margin-top: 40px;
-    }
+	.card p {
+	  margin: 0;
+	  color: #94a3b8;
+	  font-size: 0.95rem;
+	  line-height: 1.55;
+	}
 
-    /* CARDS */
+	/* Footer - keep it light or make it dark */
+	footer {
+	  background: #0f172a;
+	  color: #94a3b8;
+	  border-top: 1px solid rgba(255, 255, 255, 0.08);
+	}
 
-    .card {
-      border: 1px solid #e5e7eb;
-
-      padding: 20px;
-
-      border-radius: 10px;
-
-      margin-bottom: 20px;
-
-      transition: 0.2s ease;
-
-      background: #ffffff;
-
-      color: #111827;
-    }
-
-    .card h3 {
-      margin-top: 0;
-    }
-
-    .card:hover {
-      box-shadow:
-        0 8px 20px rgba(0,0,0,0.06);
-
-      transform: translateY(-3px);
-    }
+	footer a {
+	  color: #7dd3fc;
+	}
 
     /* MOBILE */
 

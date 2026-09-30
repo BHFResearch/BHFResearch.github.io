@@ -38,13 +38,24 @@ const related = allArticles
 
 <hr style="margin:40px 0;" />
 
-<h3>Related Articles</h3>
+<hr style="margin:40px 0; border-color: rgba(255,255,255,0.1);" />
+
+<h3 style="margin-bottom: 24px;">Related Articles</h3>
 
 {related.map(item => (
   <div class="card">
     <a href={`/articles/${item.slug}/`}>
-      <h4>{item.data.title}</h4>
-      <p style="color:#6b7280;">{item.data.description}</p>
+      {item.data.image && (
+        <img 
+          src={item.data.image} 
+          alt={item.data.title}
+          loading="lazy"
+        />
+      )}
+      <div class="card-content">
+        <h4>{item.data.title}</h4>
+        <p>{item.data.description}</p>
+      </div>
     </a>
   </div>
 ))}
