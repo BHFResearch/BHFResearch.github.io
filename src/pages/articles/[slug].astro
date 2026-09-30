@@ -30,6 +30,13 @@ const related = allArticles
 <MainLayout title={article.data.title} description={article.data.description}>
 
 <h1>{article.data.title}</h1>
+<p style="color:#94a3b8; font-size:0.95rem; margin-top: -8px; margin-bottom: 24px;">
+  Published on: {article.data.pubDate.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  })}
+</p>
 <p style="color:#6b7280;">{article.data.description}</p>
 
 <article>
