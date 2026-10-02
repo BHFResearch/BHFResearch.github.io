@@ -53,7 +53,13 @@ const homepageArticles = latest.slice(0, PAGE_SIZE);
       </a>
     </section>
   )}
-
+	<div class="site-intro">
+	  <p>
+		Research.BetterHealthFacts.com explores the science behind everyday body signals, 
+		common symptoms, and modern lifestyle mismatches — written clearly, grounded in 
+		research, and focused on what is normal versus what needs attention.
+	  </p>
+	</div>
   {!hero && (
     <header class="page-header">
       <h1>Latest Health Articles</h1>
@@ -257,6 +263,18 @@ const homepageArticles = latest.slice(0, PAGE_SIZE);
 	  line-height: 1.35;
 	  color: #f8fafc;
 	  font-weight: 600;
+	}
+	
+	.site-intro {
+	  max-width: 780px;
+	  margin: 10px 0 5px;
+	}
+
+	.site-intro p {
+	  color: #94a3b8;
+	  font-size: 1.05rem;
+	  line-height: 1.65;
+	  margin: 0;
 	}
 
   .pagination {
