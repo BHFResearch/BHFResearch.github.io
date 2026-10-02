@@ -28,33 +28,35 @@ const homepageArticles = latest.slice(0, PAGE_SIZE);
 
   {hero && (
     <section class="hero">
-	  <a href={`/articles/${hero.slug}/`} class="hero-link">
+	  <div class="hero-wrapper">
 
-		{hero.data.image && (
-		  <img
-			src={hero.data.image}
-			alt={hero.data.title}
-			class="hero-image"
-			loading="eager"
-			fetchpriority="high"
-		  />
-		)}
+		<!-- Main Article Link -->
+		<a href={`/articles/${hero.slug}/`} class="hero-main-link">
+		  {hero.data.image && (
+			<img
+			  src={hero.data.image}
+			  alt={hero.data.title}
+			  class="hero-image"
+			  loading="eager"
+			  fetchpriority="high"
+			/>
+		  )}
 
-		<div class="hero-overlay">
-		  <span class="hero-category">
-			<a 
-			  href={`/category/${encodeURIComponent(hero.data.category)}/`}
-			  onclick="event.stopPropagation()"
-			>
-			  {hero.data.category}
-			</a>
-		  </span>
+		  <div class="hero-overlay">
+			<h1>{hero.data.title}</h1>
+			<p>{hero.data.description}</p>
+		  </div>
+		</a>
 
-		  <h1>{hero.data.title}</h1>
-		  <p>{hero.data.description}</p>
-		</div>
+		<!-- Category Link (separate) -->
+		<a 
+		  href={`/category/${encodeURIComponent(hero.data.category)}/`} 
+		  class="hero-category-link"
+		>
+		  {hero.data.category}
+		</a>
 
-	  </a>
+	  </div>
 	</section>
   )}
 	<div class="site-intro">
