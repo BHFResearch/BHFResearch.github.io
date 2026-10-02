@@ -46,7 +46,6 @@ const pageArticles = sorted.slice(start, end);
 		<article class="article-card">
 
 		  <a href={`/articles/${article.slug}/`}>
-
 			{article.data.image && (
 			  <img
 				src={article.data.image}
@@ -55,15 +54,19 @@ const pageArticles = sorted.slice(start, end);
 				loading="lazy"
 			  />
 			)}
-
-			<div class="card-title-overlay">
-			  <span class="article-category">
-				{article.data.category}
-			  </span>
-			  <h2>{article.data.title}</h2>
-			</div>
-
 		  </a>
+
+		  <div class="card-title-overlay">
+			<span class="article-category">
+			  <a href={`/category/${encodeURIComponent(article.data.category)}/`}>
+				{article.data.category}
+			  </a>
+			</span>
+
+			<a href={`/articles/${article.slug}/`}>
+			  <h2>{article.data.title}</h2>
+			</a>
+		  </div>
 
 		</article>
 	  ))}
