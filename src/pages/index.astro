@@ -142,81 +142,6 @@ const homepageArticles = latest.slice(0, PAGE_SIZE);
     font-size: 1.05rem;
   }
 
-  .hero {
-    position: relative;
-    border-radius: 24px;
-    overflow: hidden;
-    border: 1px solid rgba(255,255,255,0.08);
-    background: #111827;
-  }
-
-	.hero-link {
-	  display: block;
-	  position: relative;
-	  color: inherit;
-	  text-decoration: none;
-	}
-
-	.hero-category a {
-	  color: #7dd3fc;
-	  text-decoration: none;
-	  position: relative;
-	  z-index: 2;
-	}
-
-	.hero-category a:hover {
-	  color: #bae6fd;
-	  text-decoration: underline;
-	}
-
-  .hero-image {
-    width: 100%;
-    height: 70vh;
-    object-fit: cover;
-    display: block;
-  }
-
-  .hero-overlay {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    padding: 40px;
-    background:
-      linear-gradient(
-        to top,
-        rgba(0,0,0,0.88),
-        rgba(0,0,0,0.25),
-        rgba(0,0,0,0.05)
-      );
-  }
-
-  .hero-category,
-  .article-category {
-    display: inline-block;
-    margin-bottom: 12px;
-    color: #7dd3fc;
-    font-size: 0.8rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: 700;
-  }
-
-  .hero h1 {
-    font-size: clamp(2rem, 5vw, 4.5rem);
-    line-height: 1.05;
-    margin: 0 0 15px;
-    color: white;
-    max-width: 900px;
-  }
-
-  .hero p {
-    color: rgba(255,255,255,0.85);
-    max-width: 700px;
-    font-size: 1.1rem;
-  }
-
   .articles-grid {
     display: grid;
     grid-template-columns: repeat(
@@ -339,23 +264,92 @@ const homepageArticles = latest.slice(0, PAGE_SIZE);
 
 	  transform: translateY(-2px);
 	}
+	.hero {
+	  position: relative;
+	  border-radius: 24px;
+	  overflow: hidden;
+	  border: 1px solid rgba(255,255,255,0.08);
+	  background: #111827;
+	}
 
-  @media (max-width: 768px) {
+	.hero-wrapper {
+	  position: relative;
+	}
 
-    .hero-image {
-      height: 55vh;
-    }
+	.hero-main-link {
+	  display: block;
+	  color: inherit;
+	  text-decoration: none;
+	}
 
-    .hero-overlay {
-      padding: 24px;
-    }
+	.hero-image {
+	  width: 100%;
+	  height: 70vh;
+	  object-fit: cover;
+	  display: block;
+	}
 
-    .article-content {
-      padding: 18px;
-    }
+	.hero-overlay {
+	  position: absolute;
+	  inset: 0;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: end;
+	  padding: 40px;
+	  background: linear-gradient(
+		to top,
+		rgba(0,0,0,0.88),
+		rgba(0,0,0,0.25),
+		rgba(0,0,0,0.05)
+	  );
+	}
 
-    .articles-grid {
-      gap: 18px;
-    }
-  }
+	.hero-overlay h1 {
+	  font-size: clamp(2rem, 5vw, 4.5rem);
+	  line-height: 1.05;
+	  margin: 0 0 15px;
+	  color: white;
+	  max-width: 900px;
+	}
+
+	.hero-overlay p {
+	  color: rgba(255,255,255,0.85);
+	  max-width: 700px;
+	  font-size: 1.1rem;
+	  margin: 0;
+	}
+
+	/* Category link sitting on top */
+	.hero-category-link {
+	  position: absolute;
+	  bottom: 140px;          /* adjust if needed */
+	  left: 40px;
+	  z-index: 5;
+	  color: #7dd3fc;
+	  font-size: 0.8rem;
+	  letter-spacing: 1px;
+	  text-transform: uppercase;
+	  font-weight: 700;
+	  text-decoration: none;
+	}
+
+	.hero-category-link:hover {
+	  color: #bae6fd;
+	  text-decoration: underline;
+	}
+
+	@media (max-width: 768px) {
+	  .hero-image {
+		height: 55vh;
+	  }
+
+	  .hero-overlay {
+		padding: 24px;
+	  }
+
+	  .hero-category-link {
+		left: 24px;
+		bottom: 120px;
+	  }
+	}
 </style>
