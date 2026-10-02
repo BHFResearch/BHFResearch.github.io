@@ -322,9 +322,14 @@ const homepageArticles = latest.slice(0, PAGE_SIZE);
 	/* Category link sitting on top */
 	.hero-category-link {
 	  position: absolute;
-	  bottom: 140px;          /* adjust if needed */
 	  left: 40px;
+	  bottom: auto;
+	  top: auto;
 	  z-index: 5;
+
+	  /* Place it just above the title */
+	  margin-bottom: 12px;
+	  
 	  color: #7dd3fc;
 	  font-size: 0.8rem;
 	  letter-spacing: 1px;
