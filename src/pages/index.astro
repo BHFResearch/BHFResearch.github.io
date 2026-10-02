@@ -28,9 +28,10 @@ const homepageArticles = latest.slice(0, PAGE_SIZE);
 
   {hero && (
     <section class="hero">
-      <a href={`/articles/${hero.slug}/`} class="hero-link">
+      
 
         {hero.data.image && (
+		 <a href={`/articles/${hero.slug}/`} class="hero-link">
           <img
             src={hero.data.image}
             alt={hero.data.title}
@@ -38,8 +39,9 @@ const homepageArticles = latest.slice(0, PAGE_SIZE);
             loading="eager"
             fetchpriority="high"
           />
+		 </a>
         )}
-	  </a>
+	  
         <div class="hero-overlay">
           <span class="hero-category">
             <a href={`/category/${encodeURIComponent(hero.data.category)}/`}>
