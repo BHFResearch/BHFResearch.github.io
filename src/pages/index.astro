@@ -39,18 +39,20 @@ const homepageArticles = latest.slice(0, PAGE_SIZE);
             fetchpriority="high"
           />
         )}
-
+	  </a>
         <div class="hero-overlay">
           <span class="hero-category">
-            {hero.data.category}
+            <a href={`/category/${encodeURIComponent(hero.data.category)}/`}>
+				{hero.data.category}
+			</a>
           </span>
-
+		<a href={`/articles/${hero.slug}/`} class="hero-link">
           <h1>{hero.data.title}</h1>
-
           <p>{hero.data.description}</p>
+		</a>
         </div>
 
-      </a>
+      
     </section>
   )}
 	<div class="site-intro">
