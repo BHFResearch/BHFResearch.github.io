@@ -90,7 +90,9 @@ const homepageArticles = latest.slice(0, PAGE_SIZE);
 
 			<div class="card-title-overlay">
 			  <span class="article-category">
-				{article.data.category}
+				<a href={`/category/${encodeURIComponent(article.data.category)}/`}>
+				  {article.data.category}
+				</a>
 			  </span>
 			  <h2>{article.data.title}</h2>
 			</div>
@@ -265,8 +267,17 @@ const homepageArticles = latest.slice(0, PAGE_SIZE);
 	  font-weight: 600;
 	}
 	
-	.site-intro {
-	  max-width: 780px;
+	.card-title-overlay .article-category a {
+	  color: #7dd3fc;
+	  text-decoration: none;
+	}
+
+	.card-title-overlay .article-category a:hover {
+	  text-decoration: underline;
+	  color: #bae6fd;
+	}
+	
+	.site-intro {	  
 	  margin: 10px 0 5px;
 	}
 
