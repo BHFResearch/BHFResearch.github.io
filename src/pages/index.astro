@@ -94,7 +94,9 @@ const homepageArticles = latest.slice(0, PAGE_SIZE);
 				  {article.data.category}
 				</a>
 			  </span>
-			  <h2>{article.data.title}</h2>
+			  <a href={`/articles/${article.slug}/`}>
+				<h2>{article.data.title}</h2>
+			  </a>
 			</div>
 
 		  </a>
@@ -269,7 +271,6 @@ const homepageArticles = latest.slice(0, PAGE_SIZE);
 	
 	.card-title-overlay .article-category a {
 	  color: #7dd3fc;
-	  text-decoration: none;
 	}
 
 	.card-title-overlay .article-category a:hover {
