@@ -36,6 +36,13 @@ const related = allArticles
     month: 'long',
     day: 'numeric'
   })}
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a 
+    href={`/category/${encodeURIComponent(article.data.category)}/`}
+    style="color:#7dd3fc; text-decoration:none;"
+  >
+    {article.data.category}
+  </a>
 </p>
 <p style="color:#6b7280;">{article.data.description}</p>
 
