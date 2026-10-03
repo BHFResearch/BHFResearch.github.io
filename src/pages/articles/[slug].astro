@@ -45,13 +45,14 @@ const related = allArticles
         </a>
       </p>
 
-      {article.data.description && (
-        <p class="article-description">{article.data.description}</p>
-      )}
+
     </header>
 
     <!-- Article Content -->
     <article class="article-content">
+	  {article.data.description && (
+        <p class="article-description">{article.data.description}</p>
+      )}
       <Content />
     </article>
 
