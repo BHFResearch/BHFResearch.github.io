@@ -1,5 +1,14 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
+
+const mainCategories = [
+  "Movement & Posture",
+  "Sleep & Recovery",
+  "Heart & Circulation",
+  "Digestion & Gut",
+  "Skin & Senses",
+  "Causes & Conditions"
+];
 ---
 
 <MainLayout 
@@ -16,7 +25,20 @@ import MainLayout from '../layouts/MainLayout.astro';
 
     <div class="actions">
       <a href="/" class="btn">Go to Homepage</a>
-      <a href="/about/" class="btn-secondary">About Us</a>
+    </div>
+
+    <div class="categories">
+      <h3>Browse by Category</h3>
+      <div class="category-list">
+        {mainCategories.map(category => (
+          <a 
+            href={`/category/${encodeURIComponent(category)}/`}
+            class="category-link"
+          >
+            {category}
+          </a>
+        ))}
+      </div>
     </div>
   </section>
 
@@ -26,7 +48,7 @@ import MainLayout from '../layouts/MainLayout.astro';
   .not-found {
     text-align: center;
     padding: 80px 20px 100px;
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
   }
 
@@ -47,14 +69,14 @@ import MainLayout from '../layouts/MainLayout.astro';
     color: #94a3b8;
     font-size: 1.1rem;
     line-height: 1.6;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
   }
 
   .actions {
     display: flex;
     gap: 16px;
     justify-content: center;
-    flex-wrap: wrap;
+    margin-bottom: 50px;
   }
 
   .btn {
@@ -72,20 +94,35 @@ import MainLayout from '../layouts/MainLayout.astro';
     background: #bae6fd;
   }
 
-  .btn-secondary {
-    display: inline-block;
-    padding: 14px 28px;
-    background: transparent;
-    color: #7dd3fc;
+  .categories h3 {
+    font-size: 1.15rem;
+    color: #f8fafc;
+    margin-bottom: 18px;
     font-weight: 600;
+  }
+
+  .category-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .category-link {
+    display: inline-block;
+    padding: 10px 18px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 999px;
-    border: 1px solid rgba(125, 211, 252, 0.4);
+    color: #7dd3fc;
     text-decoration: none;
+    font-size: 0.95rem;
     transition: 0.2s ease;
   }
 
-  .btn-secondary:hover {
-    background: rgba(125, 211, 252, 0.1);
-    border-color: #7dd3fc;
+  .category-link:hover {
+    background: rgba(125, 211, 252, 0.12);
+    border-color: rgba(125, 211, 252, 0.4);
+    color: #bae6fd;
   }
 </style>
