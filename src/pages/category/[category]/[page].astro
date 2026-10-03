@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import MainLayout from '../../layouts/MainLayout.astro';
+import MainLayout from '../../../layouts/MainLayout.astro';
 
 const PAGE_SIZE = 12;
 
@@ -8,12 +8,28 @@ export async function getStaticPaths() {
   const articles = await getCollection('articles');
   const categories = [...new Set(articles.map(a => a.data.category))];
 
-  return categories.map(category => ({
-    params: { category },
-  }));
+  const paths = [];
+
+  for (const category of categories) {
+    const filtered = articles.filter(a => a.data.category === category);
+    const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+
+    // Start from page 2
+    for (let page = 2; page <= totalPages; page++) {
+      paths.push({
+        params: { 
+          category,
+          page: String(page)
+        }
+      });
+    }
+  }
+
+  return paths;
 }
 
-const { category } = Astro.params;
+const { category, page } = Astro.params;
+const currentPage = Number(page);
 
 const allArticles = await getCollection('articles');
 
@@ -22,18 +38,19 @@ const filtered = allArticles
   .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
 
 const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
-const pageArticles = filtered.slice(0, PAGE_SIZE);
+const start = (currentPage - 1) * PAGE_SIZE;
+const pageArticles = filtered.slice(start, start + PAGE_SIZE);
 ---
 
 <MainLayout 
-  title={`${category} | Better Health Research`}
-  description={`Articles in the ${category} category on Research.BetterHealthFacts.com`}
+  title={`${category} – Page ${currentPage} | Better Health Research`}
+  description={`Page ${currentPage} of articles in the ${category} category`}
 >
 
   <h1 style="margin-bottom: 8px;">{category}</h1>
   <p style="color:#94a3b8; margin-bottom: 30px;">
     {filtered.length} article{filtered.length !== 1 ? 's' : ''} in this category
-    {totalPages > 1 && ` · Page 1 of ${totalPages}`}
+    · Page {currentPage} of {totalPages}
   </p>
 
   <section class="articles-grid">
@@ -59,13 +76,25 @@ const pageArticles = filtered.slice(0, PAGE_SIZE);
     ))}
   </section>
 
-  {totalPages > 1 && (
-    <nav class="pagination">
+  <nav class="pagination">
+    <a href={
+      currentPage === 2 
+        ? `/category/${encodeURIComponent(category)}/` 
+        : `/category/${encodeURIComponent(category)}/${currentPage - 1}/`
+    }>
+      ← Previous
+    </a>
+
+    <span class="page-number">Page {currentPage} of {totalPages}</span>
+
+    {currentPage < totalPages ? (
+      <a href={`/category/${encodeURIComponent(category)}/${currentPage + 1}/`}>
+        Next →
+      </a>
+    ) : (
       <span></span>
-      <span class="page-number">Page 1 of {totalPages}</span>
-      <a href={`/category/${encodeURIComponent(category)}/2/`}>Next →</a>
-    </nav>
-  )}
+    )}
+  </nav>
 
 </MainLayout>
 
