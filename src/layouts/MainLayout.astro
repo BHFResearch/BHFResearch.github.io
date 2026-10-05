@@ -589,5 +589,26 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const header = document.querySelector('header');
+    const headerTitle = document.getElementById('header-title');
+    const pageTitle = document.querySelector('h1');
+
+    if (headerTitle && pageTitle) {
+      headerTitle.textContent = pageTitle.textContent.trim();
+    }
+
+    window.addEventListener('scroll', () => {
+      if (!header) return;
+      if (window.scrollY > 80) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+  });
+</script>
+
 </body>
 </html>
