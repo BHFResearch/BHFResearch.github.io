@@ -598,24 +598,27 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const header = document.querySelector('header');
-    const headerTitle = document.getElementById('header-title');
-    const pageTitle = document.querySelector('h1');
+	document.addEventListener('DOMContentLoaded', () => {
+	  const header = document.querySelector('header');
+	  const headerTitle = document.getElementById('header-title');
+	  const pageTitle = document.querySelector('h1');
 
-    if (headerTitle && pageTitle) {
-      headerTitle.textContent = pageTitle.textContent.trim();
-    }
+	  // Only enable sticky article title on article pages
+	  const isArticlePage = window.location.pathname.includes('/articles/');
 
-    window.addEventListener('scroll', () => {
-      if (!header) return;
-      if (window.scrollY > 80) {
-        header.classList.add('scrolled');
-      } else {
-        header.classList.remove('scrolled');
-      }
-    });
-  });
+	  if (isArticlePage && headerTitle && pageTitle) {
+		headerTitle.textContent = pageTitle.textContent.trim();
+
+		window.addEventListener('scroll', () => {
+		  if (!header) return;
+		  if (window.scrollY > 80) {
+			header.classList.add('scrolled');
+		  } else {
+			header.classList.remove('scrolled');
+		  }
+		});
+	  }
+	});
 </script>
 
 </body>
