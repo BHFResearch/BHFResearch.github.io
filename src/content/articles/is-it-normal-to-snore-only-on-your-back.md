@@ -35,6 +35,11 @@ You may wake with a dry mouth or a dry throat, because the same jaw drop that na
 
 What it usually is not: a snore that is equally loud on your side, your stomach, and propped up in a chair. Position-independent snoring is more likely to involve a narrower baseline airway, nasal blockage, or a heavier tongue and neck, not gravity alone.
 
+<blockquote>
+  “The upper airway is more collapsible on the back than on the side. For many ordinary snorers, changing position is enough to quiet the vibration.”
+  <strong>— Research insight</strong>
+</blockquote>
+
 ## Why the Back Position Does This
 
 The upper airway is a muscular tube with no rigid rings. During sleep, the tongue, soft palate, and pharyngeal walls lose some of the tone that holds them open in waking life. Shiroh Isono and John Remmers showed, in careful pressure studies, that this tube is more collapsible when a person lies supine than when they lie on the side. The critical closing pressure — the pressure at which the airway wants to shut — shifts in an unfavorable direction on the back.
@@ -56,6 +61,11 @@ Richard Cartwright gave the clinical version a name. Positional obstructive slee
 **A few extra centimeters at the neck.** Neck circumference and tongue volume track with airway crowding. A modest weight gain can turn a silent back-sleeper into a positional snorer without changing anything else about the night.
 
 **Pregnancy or fluid shift.** Later pregnancy, and some people with evening ankle swelling, shift fluid toward the neck when they lie flat. The airway lining is puffier by 2 a.m. than at bedtime. Side sleep is already the usual advice in late pregnancy for other reasons. It also helps the snore.
+
+<blockquote>
+  “Back-only snoring is often benign, but repeated gasping, long pauses, or daytime sleepiness still deserve a proper check — positional does not always mean harmless.”
+  <strong>— Clinical caution</strong>
+</blockquote>
 
 ## Hidden Triggers
 
