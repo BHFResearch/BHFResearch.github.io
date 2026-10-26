@@ -224,6 +224,18 @@ const { title = "Better Health Facts" } = Astro.props;
       flex: 1 1 260px;
     }
 	
+	/* Make search full-width when inside the overlay */
+	.search-overlay #search {
+	  max-width: none !important;
+	  width: 100% !important;
+	  flex: none !important;
+	}
+
+	.search-overlay .pagefind-ui {
+	  max-width: none !important;
+	  width: 100% !important;
+	}
+	
 	.search-toggle {
 	  background: rgba(255,255,255,0.08);
 	  border: 1px solid rgba(255,255,255,0.12);
