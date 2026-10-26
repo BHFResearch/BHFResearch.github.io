@@ -429,12 +429,22 @@ const { title = "Better Health Facts" } = Astro.props;
 
 	.search-overlay-content {
 	  width: min(900px, 92vw);
-
 	  margin: 0 auto;
-
 	  max-height: calc(100vh - 120px);
-
 	  overflow-y: auto;
+	}
+
+	/* Make Pagefind results use full available width */
+	.search-overlay .pagefind-ui,
+	.search-overlay .pagefind-ui__form,
+	.search-overlay .pagefind-ui__results-area,
+	.search-overlay .pagefind-ui__results {
+	  width: 100% !important;
+	  max-width: 100% !important;
+	}
+
+	.search-overlay .pagefind-ui__result {
+	  max-width: 100%;
 	}
 	
 
@@ -465,11 +475,7 @@ const { title = "Better Health Facts" } = Astro.props;
 
 	/* Bigger Search */
 
-	.search-overlay .pagefind-ui {
-	  max-width: none;
-	  width: 100%;
-	}
-
+	
 	.search-overlay .pagefind-ui__search-input {
 	  position: sticky;
 	  top: 0;
