@@ -1,6 +1,10 @@
 ---
-
-## title: "Why Your Face Still Expects Occasional Outdoor Air" category: "Skin & Senses" pubDate: 2026-11-13 description: "Your facial skin was built for brief encounters with outdoor air, wind, and mild temperature shifts. Long stretches indoors can leave the barrier less practiced at handling everyday change." image: "/images/articles/why-your-face-still-expects-occasional-outdoor-air.webp"
+title: "Why Your Face Still Expects Occasional Outdoor Air" 
+category: "Skin & Senses" 
+pubDate: 2026-11-13 
+description: "Your facial skin was built for brief encounters with outdoor air, wind, and mild temperature shifts. Long stretches indoors can leave the barrier less practiced at handling everyday change." 
+image: "/images/articles/why-your-face-still-expects-occasional-outdoor-air.webp"
+---
 
 You step outside for a few minutes and your face feels oddly alert—cooler, a little tighter, or simply more awake. After hours in the same indoor air, that short outdoor interval can feel like a reset. This is not random. Facial skin sits at the front of the body and has long been exposed to moving air, light temperature swings, and the small stresses of weather. Modern indoor life keeps most of that input away for most of the day.
 

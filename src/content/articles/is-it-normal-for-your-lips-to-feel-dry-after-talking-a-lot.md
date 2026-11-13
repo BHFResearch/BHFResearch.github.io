@@ -1,6 +1,10 @@
 ---
-
-## title: "Is It Normal for Your Lips to Feel Dry After Talking a Lot?" category: "Skin & Senses" pubDate: 2026-11-13 description: "Dry lips after a long day of talking are common. Thin skin, air exposure, and reduced natural moisture explain the feeling—and simple steps usually restore comfort." image: "/images/articles/is-it-normal-for-your-lips-to-feel-dry-after-talking-a-lot.webp"
+title: "Is It Normal for Your Lips to Feel Dry After Talking a Lot?" 
+category: "Skin & Senses" 
+pubDate: 2026-11-13 
+description: "Dry lips after a long day of talking are common. Thin skin, air exposure, and reduced natural moisture explain the feeling—and simple steps usually restore comfort." 
+image: "/images/articles/is-it-normal-for-your-lips-to-feel-dry-after-talking-a-lot.webp"
+---
 
 You finish a long meeting, a phone call, or a day of teaching and notice your lips feel tight, rough, or slightly cracked. They didn’t start that way. The dryness seems to arrive after hours of speaking. Many people experience this and wonder if something is wrong with their mouth or skin. In most cases it is a normal response to how lips are built and how talking changes the air around them.
 

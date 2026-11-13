@@ -1,6 +1,10 @@
 ---
-
-## title: "Is It Normal to Get a Headache After Watching TV?" category: "Daily Life" pubDate: 2026-11-13 description: "A headache after watching television is common and usually tied to eye strain, reduced blinking, or neck posture. Learn the everyday reasons, simple fixes, and clear signs it is worth checking." image: "/images/articles/is-it-normal-to-get-a-headache-after-watching-tv.webp"
+title: "Is It Normal to Get a Headache After Watching TV?" 
+category: "Daily Life" 
+pubDate: 2026-11-13 
+description: "A headache after watching television is common and usually tied to eye strain, reduced blinking, or neck posture. Learn the everyday reasons, simple fixes, and clear signs it is worth checking." 
+image: "/images/articles/is-it-normal-to-get-a-headache-after-watching-tv.webp"
+---
 
 You settle in for a show, the room is dim, and two hours later a dull pressure sits behind your eyes or across your forehead. The program was not stressful. You were not dehydrated in any obvious way. The headache simply arrived with the credits. This is a familiar pattern for many people, and in most cases it has ordinary, reversible explanations rather than anything alarming.
 
