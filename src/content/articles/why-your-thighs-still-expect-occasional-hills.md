@@ -22,7 +22,6 @@ image: "/images/articles/why-your-thighs-still-expect-occasional-hills.webp"
     "
   />
 </figure>
-
 <p>You walk every day. You take the stairs at work without thinking. Then one weekend you choose a slightly hilly path and your thighs feel heavier, tighter, or more tired than they “should.” The sensation is common enough that many people assume they are simply out of shape. In most cases the explanation is quieter: your thighs still expect the occasional elevation changes that shaped human walking for most of our history.</p>
 
 <h2>What This Expectation Feels Like</h2>
