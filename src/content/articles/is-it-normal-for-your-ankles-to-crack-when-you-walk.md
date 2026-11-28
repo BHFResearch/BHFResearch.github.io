@@ -1,7 +1,7 @@
 ---
 title: "Is It Normal for Your Ankles to Crack When You Walk?"
 category: "Movement & Posture"
-pubDate: 2026-11-29
+pubDate: 2026-11-27
 description: "Ankle cracking or popping while walking is usually harmless gas release or tendon glide. Learn the common causes, when it matters, and simple ways to keep ankles quiet and comfortable."
 image: "/images/articles/is-it-normal-for-your-ankles-to-crack-when-you-walk.webp"
 ---
